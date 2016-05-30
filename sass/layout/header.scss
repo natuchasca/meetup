@@ -1,0 +1,137 @@
+
+/*STILOS HEADER lissette*/
+.menu
+{
+	background-image:url("../img/starwars_background.jpg");
+	background-size: cover;
+	height:100vh;
+
+		.navbar-toggle, .nav
+		{
+			background-color:$black;
+		}
+		
+	
+
+
+	.menu-nav
+	{
+		background-color:$black;
+		height:70px;
+		border:none;
+		
+
+		.navbar-brand 
+		{
+			margin-top:-30px;
+			margin-left:20px;
+			img 
+			{
+				height:70px;
+			    width:280px;
+			    margin-top:13px;
+			}
+		}
+		ul 
+		{
+			margin-right:30px;
+		}
+		ul li 
+		{
+			margin-top:15px;
+			font-size:15px;
+			margin-left:20px;
+			a 
+			{
+				color:$white;
+
+			}
+		}
+		ul li a:hover
+		{
+			background-color:$white;
+			color:$yellow;
+			border-radius:4px;
+			font-weight:bold;
+		}
+	}
+	#tittle
+	{
+		position: absolute;
+	width: 18em;
+	height: 50em;
+	bottom: 0;
+	left: 50%;
+	margin-left: -9em;
+	font-size: 350%;
+	font-weight: bold;
+	text-align: justify;
+	overflow: hidden;
+	transform-origin: 50% 100%;
+	transform: perspective(300px) rotateX(25deg);
+	}
+	#titles:after
+{
+	position: absolute;
+	content: ' ';
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 60%;
+	background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+	pointer-events: none;
+}
+#content
+{
+	position: absolute;
+	top: 100%;
+	animation: scroll 100s linear 1s 1;
+}
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+	h1 
+	{
+		font-family:"STARWARS";
+		font-size:140px;
+		color:$yellow;
+		text-align:center;
+		margin-top:170px;
+	}
+	p 
+	{
+		color:$yellow;
+		h2		
+		{
+			color:$yellow;
+			font-size:100px;		
+		}
+	}
+}
+
+@media (max-width: 767px)
+{
+	.menu-nav
+	{
+		height:300px;
+
+		ul li a 
+		{
+			margin-bottom:10px;
+		}
+	}
+	#content
+{
+	position: absolute;
+	top: 100%;
+	animation: scroll 100s linear 1s 1;
+}
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+}
+
+

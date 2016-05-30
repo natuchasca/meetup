@@ -1,0 +1,92 @@
+/*STILOS HEADER lissette*/
+.menu {
+  background-image: url("../img/starwars_background.jpg");
+  background-size: cover;
+  height: 100vh; }
+  .menu .navbar-toggle, .menu .nav {
+    background-color: #3B3D3F; }
+  .menu .menu-nav {
+    background-color: #3B3D3F;
+    height: 70px;
+    border: none; }
+    .menu .menu-nav .navbar-brand {
+      margin-top: -30px;
+      margin-left: 20px; }
+      .menu .menu-nav .navbar-brand img {
+        height: 70px;
+        width: 280px;
+        margin-top: 13px; }
+    .menu .menu-nav ul {
+      margin-right: 30px; }
+    .menu .menu-nav ul li {
+      margin-top: 15px;
+      font-size: 15px;
+      margin-left: 20px; }
+      .menu .menu-nav ul li a {
+        color: #FFF; }
+    .menu .menu-nav ul li a:hover {
+      background-color: #FFF;
+      color: #F7BD2A;
+      border-radius: 4px;
+      font-weight: bold; }
+  .menu #tittle {
+    position: absolute;
+    width: 18em;
+    height: 50em;
+    bottom: 0;
+    left: 50%;
+    margin-left: -9em;
+    font-size: 350%;
+    font-weight: bold;
+    text-align: justify;
+    overflow: hidden;
+    transform-origin: 50% 100%;
+    transform: perspective(300px) rotateX(25deg); }
+  .menu #titles:after {
+    position: absolute;
+    content: ' ';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 60%;
+    background-image: linear-gradient(top, black 0%, transparent 100%);
+    pointer-events: none; }
+  .menu #content {
+    position: absolute;
+    top: 100%;
+    animation: scroll 100s linear 1s 1; }
+@keyframes scroll {
+  0% {
+    top: 100%; }
+  100% {
+    top: -170%; } }
+  .menu h1 {
+    font-family: "STARWARS";
+    font-size: 140px;
+    color: #F7BD2A;
+    text-align: center;
+    margin-top: 170px; }
+  .menu p {
+    color: #F7BD2A; }
+    .menu p h2 {
+      color: #F7BD2A;
+      font-size: 100px; }
+
+@media (max-width: 767px) {
+  .menu-nav {
+    height: 300px; }
+    .menu-nav ul li a {
+      margin-bottom: 10px; }
+
+  #content {
+    position: absolute;
+    top: 100%;
+    animation: scroll 100s linear 1s 1; }
+
+  @keyframes scroll {
+    0% {
+      top: 100%; }
+    100% {
+      top: -170%; } } }
+
+/*# sourceMappingURL=main.css.map */
