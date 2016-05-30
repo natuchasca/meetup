@@ -67,7 +67,8 @@
     text-align: center;
     margin-top: 170px; }
   .menu p {
-    color: #F7BD2A; }
+    color: #F7BD2A;
+    font-family: "STARWARS"; }
     .menu p h2 {
       color: #F7BD2A;
       font-size: 100px; }
