@@ -1,0 +1,57 @@
+/* Margenes de secciones */
+/* Línea */
+/* Programación */
+.programacion {
+  padding: 30px 0px; }
+  .programacion hr {
+    width: 50px;
+    background-color: #F7BD2A;
+    border: 1px solid #F7BD2A;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .programacion .horario {
+    height: 150px;
+    margin-bottom: 20px;
+    min-width: 200px;
+    background-color: #F2F6F7;
+    padding: 10px; }
+    .programacion .horario .box-hora {
+      width: 85px;
+      height: 85px;
+      background-color: #F7BD2A;
+      float: left;
+      color: white;
+      font-size: 25px;
+      padding: 10px;
+      margin-right: 20px;
+      text-align: left; }
+  .programacion .actividad {
+    padding-top: 2px; }
+    .programacion .actividad h5 {
+      margin-bottom: -5px; }
+
+/* Colaboradores */
+.colaboradores {
+  padding: 30px 0px; }
+  .colaboradores hr {
+    width: 50px;
+    background-color: #F7BD2A;
+    border: 1px solid #F7BD2A;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .colaboradores img {
+    height: auto;
+    margin-bottom: 20px; }
+    .colaboradores img.laboratoria {
+      margin-top: 50px;
+      width: 100%; }
+    .colaboradores img.blanco {
+      margin-top: 10px;
+      width: 100%; }
+    .colaboradores img.fabrica {
+      margin-top: 20px;
+      width: 90%; }
+    .colaboradores img.sol {
+      width: 75%; }
+
+/*# sourceMappingURL=main.css.map */

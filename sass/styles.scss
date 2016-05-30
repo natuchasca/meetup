@@ -1,0 +1,59 @@
+
+
+
+/* Programación */
+.programacion {
+	@include marginsecciones;
+	@include linea;
+	.horario {
+		height: 150px;
+		margin-bottom: 20px;
+		min-width: 200px;
+		background-color: $grey;
+		padding: 10px;
+		.box-hora {
+			width: 85px;
+			height: 85px;
+			background-color: $yellow;
+			float: left;
+			color: white;
+			font-size: 25px;
+			padding: 10px;
+			margin-right: 20px;
+			text-align: left;
+		}
+	}
+	.actividad {
+			padding-top: 2px;
+		h5 {
+			margin-bottom: -5px;
+		}
+	}
+}
+
+
+
+/* Colaboradores */
+.colaboradores {
+	@include marginsecciones;
+	@include linea;
+	img {
+		height: auto;
+		margin-bottom: 20px;
+		&.laboratoria {
+			margin-top: 50px;
+			width: 100%;
+		}
+		&.blanco {
+			margin-top: 10px;
+			width: 100%;
+		}
+		&.fabrica {
+			margin-top: 20px;
+			width: 90%;
+		}
+		&.sol {
+			width: 75%;
+		}
+	}
+}
