@@ -111,6 +111,14 @@
 	}
 }
 
+.bg-fixed
+{
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
 @media (max-width: 767px)
 {
 	.menu-nav

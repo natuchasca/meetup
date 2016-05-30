@@ -72,6 +72,11 @@
       color: #F7BD2A;
       font-size: 100px; }
 
+.bg-fixed {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
 @media (max-width: 767px) {
   .menu-nav {
     height: 300px; }
