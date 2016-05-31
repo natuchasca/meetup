@@ -6,13 +6,61 @@ p, h4, h6, li>a {
 	font-family: $tipo_norm;
 }
 
+/* Que es */
+.que-es{
+	@include marginsecciones;
+	h1{
+	padding-bottom: 2%;
+	text-align: center;
+	}
+	p{
+	font-size: 20px;
+	text-align: justify;
+	margin-bottom: 20px;
+	}
+	img{
+	margin-top: 10%;
+	width:80%;
+	}
+	.boton-amarillo{
+	background-color:$yellow;
+	padding:1%;
+	width: 180px;
+	border-radius: 5px;
+	margin-top:1%;
+	text-align:center;
+	margin: 20px auto;
+	color:white;
+	font-size: 20px; 
+	border-style: none;
+		a {
+			text-decoration: none;
+			color: white;
+		}
+	}
+	
+	.boton-amarillo:hover {
+		background-color:$white;
+		font-weight:bold;
+		border: 3px solid $yellow;
+		a {
+			color:$yellow;
+		}
+	}
+
+}
+
+
 /* Programación */
 .programacion {
 	@include marginsecciones;
 	@include linea;
 	height: auto;
+	  p {
+	    font-size: 16px;
+	  }
 	.horario {
-		height: 120px;
+		height: 150px;
 		margin-bottom: 20px;
 		min-width: 200px;
 		background-color: $grey;
@@ -34,6 +82,12 @@ p, h4, h6, li>a {
 		h5 {
 			margin-bottom: -5px;
 		}
+		h4 {
+			font-weight: bold;
+		}
+		p {
+			font-size: 14px;
+		}
 	}
 }
 
@@ -42,6 +96,9 @@ p, h4, h6, li>a {
 .colaboradores {
 	@include marginsecciones;
 	@include linea;
+	  p {
+	    font-size: 16px;
+	  }
 	img {
 		height: auto;
 		margin-bottom: 20px;
@@ -76,6 +133,9 @@ p, h4, h6, li>a {
 	-moz-animation: animatedBackground 10s linear infinite;
 	-webkit-animation: animatedBackground 10s linear infinite;
 	vertical-align: middle;
+	a:hover {
+		text-decoration: none;
+	}
 	h1 {
 		font-family:"STARWARS";
 		color: $yellow;

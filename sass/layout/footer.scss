@@ -9,6 +9,7 @@
 	img{
 		@include iconos;
 	}
+	ul 
 	li{
 		@include lista4;
 	}
@@ -23,6 +24,9 @@
 		padding-top: 29px;
 
 	}
+	a {
+			color:$yellow;
+		}
 }
 
 .foot {

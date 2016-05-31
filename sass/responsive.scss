@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+	.logo-header {
+		z-index: 1;
+	}
+
+	.navbar-default .navbar-collapse, 
+	 {
+		border-color: none;
+		border-top: none;
+		border-style: none;
+	}
+
+
+	.que-es {
+		.meet {
+			margin: 10% auto;
+		}
+		p {
+			margin: 10% 10%;
+		}
+	}
+	
+	.hashtag {
+		.hashtag-text {
+			h1 {
+			font-size: 190%;
+			}
+		}
+	}
+	
+	.mainfooter {
+		p {
+			margin-bottom: 50px;
+		}
+
+	}
+}
+
