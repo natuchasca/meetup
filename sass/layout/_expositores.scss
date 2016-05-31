@@ -1,30 +1,29 @@
 /* Style Jedi Masters */
-.titlejedi {
-  text-align: center;
-  color: #3B3D3F;
-  width: 100%;
-  font-family: "STARWARS"; }
+.titlejedi{
+	text-align: center;
+	color: $black;
+	width:100%;
+	font-family: "STARWARS";
+}
+.name-jedi{
+	font-family:"STARWARS";
+}
 
-.name-jedi {
-  font-family: "STARWARS"; }
-
-.red-icon {
-  margin: 0 2%;
-  color: #3B3D3F; }
-  .red-icon:hover {
-    color: #F7BD2A;
-    text-decoration: none; }
-
-.enlaces {
-  webkit-transition-property: initial; }
-
+.red-icon{
+	margin: 0 2%;
+	color:$black;
+	&:hover{
+		color:$yellow;
+    text-decoration: none;
+	}
+}
 .jedi {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3%;
-  margin-bottom: 3%; }
-
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 3%;
+  	margin-bottom: 3%;
+}
 .jedi .jedi-img {
   display: block;
   margin-left: auto;
@@ -48,8 +47,8 @@
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
   -ms-transition: all 500ms ease-in-out;
-  -o-transition: all 500ms ease-in-out; }
-
+  -o-transition: all 500ms ease-in-out;
+}
 .jedi .jedi-text {
   font-family: 'Open Sans';
   position: absolute;
@@ -75,8 +74,8 @@
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
   -ms-transition: all 500ms ease-in-out;
-  -o-transition: all 500ms ease-in-out; }
-
+  -o-transition: all 500ms ease-in-out;
+}
 .jedi:hover .jedi-img {
   -webkit-transform: 0px -30px 0.5;
   -moz-transform: 0px -30px 0.5;
@@ -88,8 +87,8 @@
   -moz-transform: translate(0px, -30px) scale(0.5);
   -o-transform: translate(0px, -30px) scale(0.5);
   -ms-transform: translate(0px, -30px) scale(0.5);
-  border-radius: 50%; }
-
+  border-radius: 50%;
+}
 .jedi:hover .jedi-text {
   -webkit-transform: 0px 0px 2;
   -moz-transform: 0px 0px 2;
@@ -100,8 +99,6 @@
   -webkit-transform: translate(0px, 0px) scale(2);
   -moz-transform: translate(0px, 0px) scale(2);
   -o-transform: translate(0px, 0px) scale(2);
-  -ms-transform: translate(0px, 0px) scale(2); }
-
+  -ms-transform: translate(0px, 0px) scale(2);
+}
 /* Style Jedi Masters */
-
-/*# sourceMappingURL=main.css.map */
