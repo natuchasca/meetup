@@ -2,6 +2,10 @@ h1, h2 {
 	font-family:"STARWARS";
 }
 
+p, h4, h6, li>a {
+	font-family: $tipo_norm;
+}
+
 /* Programación */
 .programacion {
 	@include marginsecciones;

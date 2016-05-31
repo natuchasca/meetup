@@ -41,6 +41,14 @@
 				color: $yellow;
 			}
 		}
+		ul li:last-child>a {
+			background-color:$white;
+			color:$yellow;
+			border-radius:4px;
+			font-weight:bold;
+			border: 3px solid $yellow;
+			margin-top: -5px;
+		}
 		ul li a:hover
 		{
 			background-color:$white;

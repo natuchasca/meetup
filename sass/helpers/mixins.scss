@@ -18,7 +18,7 @@
 
 /* Margenes de secciones */
 @mixin marginsecciones {
-	padding: 30px 0px;
+	padding: 20px 0px;
 }
 
 /* Línea */
@@ -30,4 +30,38 @@
 		margin-top: 10px;
 		margin-bottom: 30px;
 	}
+}
+
+
+@mixin iconos{
+	
+		height: 45px;
+		width: 45px;
+		margin-right: 10px;
+
+}
+
+@mixin letras{
+	color: $white;
+	font-family: $tipo_norm;
+}
+
+@mixin cit{
+	text-align: center;
+	font-family: $tipo_norm;
+	color: $white;
+
+}
+
+@mixin lista4{
+	list-style: none;
+	padding: 10px;
+	color: $white;
+	margin-left: -40px;
+}
+
+@mixin texto5 {
+	font-family: "STARWARS";
+	color: $white;
+	padding-bottom: 20px;
 }
