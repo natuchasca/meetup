@@ -1,0 +1,31 @@
+@mixin iconos{
+	
+		height: 45px;
+		width: 45px;
+		text-decoration: none;
+
+}
+
+@mixin letras{
+	color: $white;
+	font-family: $tipo_norm;
+}
+
+@mixin cit{
+	text-align: center;
+	font-family: $tipo_norm;
+	color: $white;
+
+}
+
+@mixin lista4{
+	text-decoration: none;
+	padding: 10px;
+	color: $white;
+}
+
+@mixin texto5 {
+	font-family: $tipo_norm;
+	color: $white;
+	padding-bottom: 20px;
+}

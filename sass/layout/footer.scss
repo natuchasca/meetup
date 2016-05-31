@@ -1,0 +1,61 @@
+.mainfooter{ 
+	
+	background-color: $black;
+	padding-top: 40px;
+	
+}
+
+.foot2{
+	img{
+		@include iconos;
+	}
+	li{
+		@include lista4;
+	}
+}
+
+.footerwidget {
+
+	padding: 0px 20px 0px 20px; 
+	padding-right: 97px;
+	p{
+		@include letras;
+		padding-top: 29px;
+
+	}
+}
+
+.foot {
+	 p{
+		@include letras;
+		padding-top: 20px;
+	}
+	h3 {
+		@inlcude letras;
+	}
+	iframe{
+		padding-top:10px;
+	}
+}
+
+.citripio{
+	@include cit;
+
+	img{
+		height: 100px;
+		width: 100px;
+	}
+}
+
+.foot {
+	h3{
+		@include texto5;
+	}
+}
+
+.foot2{
+	h3{
+		@include texto5;
+	}
+}
+
