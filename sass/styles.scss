@@ -1,10 +1,12 @@
-
-
+h2 {
+	font-family:"STARWARS";
+}
 
 /* Programación */
 .programacion {
 	@include marginsecciones;
 	@include linea;
+	height: auto;
 	.horario {
 		height: 150px;
 		margin-bottom: 20px;
