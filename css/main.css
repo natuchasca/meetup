@@ -30,13 +30,13 @@
     margin: 10px 10px 0px 10px; }
     .menu .menu-nav ul li a {
       color: #FFF; }
+    .menu .menu-nav ul li a.active {
+      color: #F7BD2A; }
   .menu .menu-nav ul li a:hover {
     background-color: #FFF;
     color: #F7BD2A;
     border-radius: 4px;
     font-weight: bold; }
-    .menu .menu-nav ul li a:hover:active {
-      color: #F7BD2A; }
 
 .presentacion {
   background-image: url("../img/star_bg.jpg"); }
@@ -54,7 +54,7 @@
     position: absolute;
     width: 18em;
     height: 50em;
-    bottom: 30%;
+    bottom: 20%;
     left: 50%;
     margin-left: -9em;
     font-size: 350%;
@@ -110,7 +110,7 @@
       top: 100%; }
     100% {
       top: -170%; } } }
-h2 {
+h1, h2 {
   font-family: "STARWARS"; }
 
 /* Programaci├│n */
@@ -124,11 +124,11 @@ h2 {
     margin-top: 10px;
     margin-bottom: 30px; }
   .programacion .horario {
-    height: 150px;
+    height: 120px;
     margin-bottom: 20px;
     min-width: 200px;
     background-color: #F2F6F7;
-    padding: 10px; }
+    padding: 12px; }
     .programacion .horario .box-hora {
       width: 85px;
       height: 85px;
@@ -140,7 +140,7 @@ h2 {
       margin-right: 20px;
       text-align: left; }
   .programacion .actividad {
-    padding-top: 2px; }
+    margin-top: -5px; }
     .programacion .actividad h5 {
       margin-bottom: -5px; }
 
@@ -167,5 +167,43 @@ h2 {
       width: 90%; }
     .colaboradores img.sol {
       width: 75%; }
+
+/* Hashtag */
+.hashtag {
+  padding: 30px 0px;
+  background-image: url("../img/star_bg.jpg");
+  padding: 60px 0px;
+  height: 30vh;
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animatedBackground 10s linear infinite;
+  -ms-animation: animatedBackground 10s linear infinite;
+  -moz-animation: animatedBackground 10s linear infinite;
+  -webkit-animation: animatedBackground 10s linear infinite;
+  vertical-align: middle; }
+  .hashtag h1 {
+    font-family: "STARWARS";
+    color: #F7BD2A;
+    font-size: 50px; }
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 100% 0; } }
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 100% 0; } }
+@-ms-keyframes animatedBackground {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 100% 0; } }
+@-moz-keyframes animatedBackground {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 100% 0; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -37,6 +37,9 @@
 				color:$white;
 
 			}
+			a.active {
+				color: $yellow;
+			}
 		}
 		ul li a:hover
 		{
@@ -44,9 +47,6 @@
 			color:$yellow;
 			border-radius:4px;
 			font-weight:bold;
-			&:active {
-				color: $yellow;
-			}
 		}
 	}
 }
@@ -58,7 +58,7 @@
 		position: absolute;
 		width: 18em;
 		height: 50em;
-		bottom: 30%;
+		bottom: 20%;
 		left: 50%;
 		margin-left: -9em;
 		font-size: 350%;
