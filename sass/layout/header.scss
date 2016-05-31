@@ -90,7 +90,7 @@
 	#content {
 		position: absolute;
 		top: 100%;
-		animation: scroll 100s linear 1s 1;
+		animation: scroll 100s linear 1s infinite;
 	}
 	@keyframes scroll {
 	0% { top: 100%; }
@@ -106,6 +106,7 @@
 	}
 	p {
 		color:$yellow;
+		font-family:"STARWARS";
 		h2 {
 			color:$yellow;
 			font-size:100px;		
@@ -131,7 +132,7 @@
 {
 	position: absolute;
 	top: 100%;
-	animation: scroll 100s linear 1s 1;
+	animation: scroll 100s linear 1s infinite;
 }
 @keyframes scroll {
 	0% { top: 100%; }

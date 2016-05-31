@@ -81,7 +81,7 @@
   .presentacion #content {
     position: absolute;
     top: 100%;
-    animation: scroll 100s linear 1s 1; }
+    animation: scroll 100s linear 1s infinite; }
 @keyframes scroll {
   0% {
     top: 100%; }
@@ -94,7 +94,8 @@
     text-align: center;
     margin-top: 80px; }
   .presentacion p {
-    color: #F7BD2A; }
+    color: #F7BD2A;
+    font-family: "STARWARS"; }
     .presentacion p h2 {
       color: #F7BD2A;
       font-size: 100px; }
@@ -109,7 +110,7 @@
   #content {
     position: absolute;
     top: 100%;
-    animation: scroll 100s linear 1s 1; }
+    animation: scroll 100s linear 1s infinite; }
 
   @keyframes scroll {
     0% {
