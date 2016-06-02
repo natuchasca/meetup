@@ -6,12 +6,24 @@
 }
 
 .foot2{
-	img{
+	.icons {
 		@include iconos;
+		&:hover {
+		color: $yellow;
+		cursor: pointer;
+		}
 	}
 	ul 
 	li{
 		@include lista4;
+		a{
+			color:white;
+		}
+	}
+	ul > li a:hover {
+		color: $yellow;
+		cursor: pointer;
+		text-decoration: none;
 	}
 }
 

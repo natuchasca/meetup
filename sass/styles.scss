@@ -23,7 +23,6 @@ p, h4, h6, li>a {
 	width:80%;
 	}
 	h3 {
-		font-family:"STARWARS";
 		margin-bottom: -10px;
 	}
 	.boton-amarillo{
@@ -160,5 +159,137 @@ p, h4, h6, li>a {
 	@-moz-keyframes animatedBackground {
 		from { background-position: 0 0; }
 		to { background-position: 100% 0; }
+	}
+}
+
+
+
+/* INCIO SECCION BY CHUWAKA TEAM */
+@mixin boton {
+	background-color:$naranjo-lab;
+	a {
+		color: $white;
+		text-decoration: none;
+	}
+	&:hover {
+		background-color:$amarillo-lab;
+	}
+}
+@mixin pad-seccion ($arriba, $abajo) {
+	padding-top: $arriba;
+	padding-bottom: $abajo;
+}
+@mixin texto ($color, $size, $peso) {
+	font-family: "helvetica";
+	color: $color;
+	font-size: $size;
+	font-weight: $peso;
+
+}
+@mixin margen-seccion ($arriba, $abajo) {
+	margin-top: $arriba;
+	margin-bottom: $abajo;
+}
+@mixin estructura-texto ($colortitulo, $colortexto) {
+	font-family: "helvetica";
+	h1 {
+		font-weight: bolder;
+		color: $colortitulo;
+	}
+	p {
+		color: $colortexto;
+		font-weight: normal;
+	}
+}
+
+$naranjo-lab: #FFA000;
+$amarillo-lab: #FFC107;
+$light-lab: #FFECB3;
+$texto-osc: #212121;
+$gris-acento: #9E9E9E;
+$texto-sec: #727272;
+$gris-divider: #B6B6B6;
+$white: #FFFFFF;
+#meetup {
+	@include pad-seccion (50px, 150px);
+	background-color: $naranjo-lab;
+	.btn{
+		margin-top: 40px;
+	}
+	.titulo {
+		h1 {
+			text-align: center;
+			@include texto ($amarillo-lab, 60px, bold);
+			@include margen-seccion (50px, 0px);
+			span {
+				@include texto ($white, 60px, bold);
+			}
+		}
+		@media (min-width: 220px) and (max-width: 767px) {
+			h1 {
+				text-align: center;
+				@include texto ($amarillo-lab, 40px, bold);
+				span {
+					@include texto ($white, 40px, bold);
+				}
+			}
+		}
+	}
+	.fecha {
+		h1 {
+			font-family: "helvetica";
+		}
+	}
+	.suma {
+		@include margen-seccion (50px, 50px);
+		text-align: center;
+		img {
+			width: 50px;
+		}
+		span {
+			@include texto ($white, 50px, bold);
+			margin-right: 20px; 
+			margin-left: 20px;
+		}
+		.fa {
+			color: $white;
+			font-size: 50px;
+		}
+	}
+	.col-md-4 {
+		box-sizing:border-box;
+	}
+	.blanco {
+		@include texto ($texto-osc, 18px, normal);
+		background-color: $white;
+		padding:20px;
+		text-align: center;
+		margin: 10px;
+		height: 350px;
+		button {
+			@include boton;
+		}
+		.fa {
+			color: $amarillo-lab;
+			font-size: 60px;
+			@include margen-seccion (20px, 20px);
+		}
+	}
+	.parraf {
+		@include texto ($texto-osc, 16px, normal);
+		@include margen-seccion (20px, 0px);
+		text-align: center;
+		button {
+			background-color: $amarillo-lab;
+			a {
+				color: $white;
+				text-decoration: none;
+				font-weight: bold;
+			}
+		}
+	}
+	.fecha {
+		text-align: center;
+		@include texto ($texto-osc, 26px, bold);
 	}
 }
