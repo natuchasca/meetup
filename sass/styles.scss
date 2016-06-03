@@ -6,6 +6,9 @@ p, h4, h6, li>a {
 	font-family: $tipo_norm;
 }
 
+
+
+
 /* Que es */
 .que-es{
 	@include marginsecciones;
@@ -14,12 +17,12 @@ p, h4, h6, li>a {
 	text-align: center;
 	}
 	p{
-	font-size: 20px;
+	font-size: 18px;
 	text-align: justify;
 	margin-bottom: 20px;
+	margin-top: 2%;
 	}
 	img{
-	margin-top: 2%;
 	width:80%;
 	}
 	h3 {
@@ -27,29 +30,23 @@ p, h4, h6, li>a {
 	}
 	.boton-amarillo{
 	background-color:$yellow;
-	padding:1%;
 	width: 180px;
 	border-radius: 5px;
-	margin-top:1%;
 	text-align:center;
-	margin: 20px auto;
-	color:white;
-	font-size: 20px; 
-	border-style: none;
-		a {
-			text-decoration: none;
-			color: white;
+	margin: 20px auto 50px 0px;
+	border: none;
+	padding-bottom: 8px;
+		.logo-1 {
+			width: 85%;
+			height: auto;
 		}
+	}
+	.boton-amarillo:hover {
+	-webkit-box-shadow: 0px 1px 17px 1px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 1px 17px 1px rgba(0,0,0,0.4);
+	box-shadow: 0px 1px 17px 1px rgba(0,0,0,0.4);
 	}
 	
-	.boton-amarillo:hover {
-		background-color:$white;
-		font-weight:bold;
-		border: 3px solid $yellow;
-		a {
-			color:$yellow;
-		}
-	}
 
 }
 
@@ -68,6 +65,7 @@ p, h4, h6, li>a {
 		min-width: 200px;
 		background-color: $grey;
 		padding: 12px;
+		border: 1px solid $yellow;
 		.box-hora {
 			width: 85px;
 			height: 85px;
@@ -104,21 +102,24 @@ p, h4, h6, li>a {
 	  }
 	img {
 		height: auto;
-		margin-bottom: 20px;
+		margin: 0px 0px 20px 0px;
+		display: inline;
 		&.laboratoria {
-			margin-top: 50px;
-			width: 100%;
+			width: 50%;
+			margin-top: 10px;
 		}
 		&.blanco {
-			margin-top: 10px;
-			width: 100%;
+			width: 40%;
 		}
 		&.fabrica {
-			margin-top: 20px;
-			width: 90%;
+			width: 40%;
+		}
+		&.gitlab {
+			width: 25%;
+			margin-right: 20px;
 		}
 		&.sol {
-			width: 75%;
+			width: 30%;
 		}
 	}
 }
@@ -127,8 +128,8 @@ p, h4, h6, li>a {
 .hashtag {
 	@include marginsecciones;
 	background-image: url("../img/star_bg.jpg");
-	padding: 60px 0px;
-	height: 45vh;
+	padding: 50px 0px;
+	max-height: 250px;
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
 	animation: animatedBackground 10s linear infinite;
@@ -143,6 +144,7 @@ p, h4, h6, li>a {
 		font-family:"STARWARS";
 		color: $yellow;
 		font-size: 50px;
+		margin-bottom: 30px;
 	}
 	@keyframes animatedBackground {
 		from { background-position: 0 0; }
@@ -160,136 +162,37 @@ p, h4, h6, li>a {
 		from { background-position: 0 0; }
 		to { background-position: 100% 0; }
 	}
-}
-
-
-
-/* INCIO SECCION BY CHUWAKA TEAM */
-@mixin boton {
-	background-color:$naranjo-lab;
-	a {
-		color: $white;
-		text-decoration: none;
-	}
-	&:hover {
-		background-color:$amarillo-lab;
-	}
-}
-@mixin pad-seccion ($arriba, $abajo) {
-	padding-top: $arriba;
-	padding-bottom: $abajo;
-}
-@mixin texto ($color, $size, $peso) {
-	font-family: "helvetica";
-	color: $color;
-	font-size: $size;
-	font-weight: $peso;
-
-}
-@mixin margen-seccion ($arriba, $abajo) {
-	margin-top: $arriba;
-	margin-bottom: $abajo;
-}
-@mixin estructura-texto ($colortitulo, $colortexto) {
-	font-family: "helvetica";
-	h1 {
-		font-weight: bolder;
-		color: $colortitulo;
-	}
-	p {
-		color: $colortexto;
-		font-weight: normal;
-	}
-}
-
-$naranjo-lab: #FFA000;
-$amarillo-lab: #FFC107;
-$light-lab: #FFECB3;
-$texto-osc: #212121;
-$gris-acento: #9E9E9E;
-$texto-sec: #727272;
-$gris-divider: #B6B6B6;
-$white: #FFFFFF;
-#meetup {
-	@include pad-seccion (50px, 150px);
-	background-color: $naranjo-lab;
-	.btn{
-		margin-top: 40px;
-	}
-	.titulo {
-		h1 {
-			text-align: center;
-			@include texto ($amarillo-lab, 60px, bold);
-			@include margen-seccion (50px, 0px);
-			span {
-				@include texto ($white, 60px, bold);
-			}
-		}
-		@media (min-width: 220px) and (max-width: 767px) {
-			h1 {
-				text-align: center;
-				@include texto ($amarillo-lab, 40px, bold);
-				span {
-					@include texto ($white, 40px, bold);
-				}
-			}
-		}
-	}
-	.fecha {
-		h1 {
-			font-family: "helvetica";
-		}
-	}
-	.suma {
-		@include margen-seccion (50px, 50px);
+	.btn-force {
+		width: 220px;
+		height: 50px;
+		background-color:$white;
+		color:$yellow;
+		border-radius:4px;
+		font-weight:bold;
+		border: 3px solid $yellow;
+		margin-top: -5px;
+		font-size: 20px;
 		text-align: center;
-		img {
-			width: 50px;
+		a {
+			color: $yellow;
 		}
-		span {
-			@include texto ($white, 50px, bold);
-			margin-right: 20px; 
-			margin-left: 20px;
-		}
-		.fa {
+	}
+	.btn-force:hover {
+		color:$white;
+		background-color:$yellow;
+		border-radius:4px;
+		border: 3px solid $yellow;
+		font-size: 20px;
+		-webkit-box-shadow: 0px 1px 17px 1px rgba(252,249,252,1);
+		-moz-box-shadow: 0px 1px 17px 1px rgba(252,249,252,1);
+		box-shadow: 0px 1px 17px 1px rgba(252,249,252,1);
+		a {
 			color: $white;
-			font-size: 50px;
 		}
-	}
-	.col-md-4 {
-		box-sizing:border-box;
-	}
-	.blanco {
-		@include texto ($texto-osc, 18px, normal);
-		background-color: $white;
-		padding:20px;
-		text-align: center;
-		margin: 10px;
-		height: 350px;
-		button {
-			@include boton;
-		}
-		.fa {
-			color: $amarillo-lab;
-			font-size: 60px;
-			@include margen-seccion (20px, 20px);
-		}
-	}
-	.parraf {
-		@include texto ($texto-osc, 16px, normal);
-		@include margen-seccion (20px, 0px);
-		text-align: center;
-		button {
-			background-color: $amarillo-lab;
-			a {
-				color: $white;
-				text-decoration: none;
-				font-weight: bold;
-			}
-		}
-	}
-	.fecha {
-		text-align: center;
-		@include texto ($texto-osc, 26px, bold);
 	}
 }
+
+
+
+
+

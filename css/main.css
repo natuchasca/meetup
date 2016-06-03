@@ -120,30 +120,7 @@
       top: -170%; } } }
 .mainfooter {
   background-color: #3B3D3F;
-  padding-top: 40px; }
-
-.foot2 .icons {
-  font-size: 30px;
-  color: #FFF;
-  margin-right: 10px; }
-  .foot2 .icons:hover {
-    color: #F7BD2A;
-    cursor: pointer; }
-.foot2 ul
-li {
-  list-style: none;
-  padding: 10px;
-  color: #FFF;
-  margin-left: -40px;
-  width: 150px;
-  height: 50px; }
-  .foot2 ul
-  li a {
-    color: white; }
-.foot2 ul > li a:hover {
-  color: #F7BD2A;
-  cursor: pointer;
-  text-decoration: none; }
+  padding: 40px 0px; }
 
 .footerwidget {
   padding: 0px 20px 0px 20px;
@@ -159,28 +136,59 @@ li {
   color: #FFF;
   font-family: helvetica;
   padding-top: 20px; }
-.foot h3 {
-  @inlcude letras; }
 .foot iframe {
   padding-top: 10px; }
-
-.citripio {
-  text-align: center;
-  font-family: helvetica;
-  color: #FFF; }
-  .citripio img {
-    height: 100px;
-    width: 100px; }
 
 .foot h3 {
   font-family: "STARWARS";
   color: #FFF;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: -10px; }
 
 .foot2 h3 {
   font-family: "STARWARS";
   color: #FFF;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 0px; }
+.foot2 .icons {
+  font-size: 30px;
+  color: #FFF;
+  margin-right: 10px;
+  z-index: 1; }
+.foot2 .socialNetwork li {
+  width: 120px;
+  height: 30px;
+  list-style: none;
+  padding: 10px;
+  color: #FFF;
+  margin-left: -40px;
+  width: 150px;
+  height: 50px; }
+  .foot2 .socialNetwork li a {
+    display: block;
+    color: white;
+    width: 120px;
+    height: 30px; }
+  .foot2 .socialNetwork li span {
+    vertical-align: super; }
+.foot2 li:hover,
+.foot2 i:hover {
+  color: #F7BD2A; }
+.foot2 li > a:hover {
+  color: #F7BD2A;
+  text-decoration: none; }
+
+.citripio {
+  text-align: center;
+  font-family: helvetica;
+  color: #FFF;
+  margin-top: 20px; }
+  .citripio img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: -10px; }
 
 @media (max-width: 767px) {
   .logo-header {
@@ -198,6 +206,14 @@ li {
 
   .hashtag .hashtag-text h1 {
     font-size: 190%; }
+  .hashtag .hashtag-text button {
+    width: 40%;
+    height: auto;
+    font-size: 110%; }
+  .hashtag .hashtag-text button:hover {
+    width: 40%;
+    height: auto;
+    font-size: 110%; }
 
   .mainfooter p {
     margin-bottom: 50px; } }
@@ -214,34 +230,29 @@ p, h4, h6, li > a {
     padding-bottom: 2%;
     text-align: center; }
   .que-es p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    margin-top: 2%; }
   .que-es img {
-    margin-top: 2%;
     width: 80%; }
   .que-es h3 {
     margin-bottom: -10px; }
   .que-es .boton-amarillo {
     background-color: #F7BD2A;
-    padding: 1%;
     width: 180px;
     border-radius: 5px;
-    margin-top: 1%;
     text-align: center;
-    margin: 20px auto;
-    color: white;
-    font-size: 20px;
-    border-style: none; }
-    .que-es .boton-amarillo a {
-      text-decoration: none;
-      color: white; }
+    margin: 20px auto 50px 0px;
+    border: none;
+    padding-bottom: 8px; }
+    .que-es .boton-amarillo .logo-1 {
+      width: 85%;
+      height: auto; }
   .que-es .boton-amarillo:hover {
-    background-color: #FFF;
-    font-weight: bold;
-    border: 3px solid #F7BD2A; }
-    .que-es .boton-amarillo:hover a {
-      color: #F7BD2A; }
+    -webkit-box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4); }
 
 /* Programaci├│n */
 .programacion {
@@ -260,7 +271,8 @@ p, h4, h6, li > a {
     margin-bottom: 20px;
     min-width: 200px;
     background-color: #F2F6F7;
-    padding: 12px; }
+    padding: 12px;
+    border: 1px solid #F7BD2A; }
     .programacion .horario .box-hora {
       width: 85px;
       height: 85px;
@@ -293,25 +305,27 @@ p, h4, h6, li > a {
     font-size: 16px; }
   .colaboradores img {
     height: auto;
-    margin-bottom: 20px; }
+    margin: 0px 0px 20px 0px;
+    display: inline; }
     .colaboradores img.laboratoria {
-      margin-top: 50px;
-      width: 100%; }
+      width: 50%;
+      margin-top: 10px; }
     .colaboradores img.blanco {
-      margin-top: 10px;
-      width: 100%; }
+      width: 40%; }
     .colaboradores img.fabrica {
-      margin-top: 20px;
-      width: 90%; }
+      width: 40%; }
+    .colaboradores img.gitlab {
+      width: 25%;
+      margin-right: 20px; }
     .colaboradores img.sol {
-      width: 75%; }
+      width: 30%; }
 
 /* Hashtag */
 .hashtag {
   padding: 30px 0px;
   background-image: url("../img/star_bg.jpg");
-  padding: 60px 0px;
-  height: 45vh;
+  padding: 50px 0px;
+  max-height: 250px;
   background-position: 0px 0px;
   background-repeat: repeat-x;
   animation: animatedBackground 10s linear infinite;
@@ -324,7 +338,8 @@ p, h4, h6, li > a {
   .hashtag h1 {
     font-family: "STARWARS";
     color: #F7BD2A;
-    font-size: 50px; }
+    font-size: 50px;
+    margin-bottom: 30px; }
 @keyframes animatedBackground {
   from {
     background-position: 0 0; }
@@ -345,100 +360,30 @@ p, h4, h6, li > a {
     background-position: 0 0; }
   to {
     background-position: 100% 0; } }
-/* INCIO SECCION BY CHUWAKA TEAM */
-#meetup {
-  padding-top: 50px;
-  padding-bottom: 150px;
-  background-color: #FFA000; }
-  #meetup .btn {
-    margin-top: 40px; }
-  #meetup .titulo h1 {
-    text-align: center;
-    font-family: "helvetica";
-    color: #FFC107;
-    font-size: 60px;
+  .hashtag .btn-force {
+    width: 220px;
+    height: 50px;
+    background-color: #FFF;
+    color: #F7BD2A;
+    border-radius: 4px;
     font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 0px; }
-    #meetup .titulo h1 span {
-      font-family: "helvetica";
-      color: #FFFFFF;
-      font-size: 60px;
-      font-weight: bold; }
-  @media (min-width: 220px) and (max-width: 767px) {
-    #meetup .titulo h1 {
-      text-align: center;
-      font-family: "helvetica";
-      color: #FFC107;
-      font-size: 40px;
-      font-weight: bold; }
-      #meetup .titulo h1 span {
-        font-family: "helvetica";
-        color: #FFFFFF;
-        font-size: 40px;
-        font-weight: bold; } }
-  #meetup .fecha h1 {
-    font-family: "helvetica"; }
-  #meetup .suma {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    border: 3px solid #F7BD2A;
+    margin-top: -5px;
+    font-size: 20px;
     text-align: center; }
-    #meetup .suma img {
-      width: 50px; }
-    #meetup .suma span {
-      font-family: "helvetica";
-      color: #FFFFFF;
-      font-size: 50px;
-      font-weight: bold;
-      margin-right: 20px;
-      margin-left: 20px; }
-    #meetup .suma .fa {
-      color: #FFFFFF;
-      font-size: 50px; }
-  #meetup .col-md-4 {
-    box-sizing: border-box; }
-  #meetup .blanco {
-    font-family: "helvetica";
-    color: #212121;
-    font-size: 18px;
-    font-weight: normal;
-    background-color: #FFFFFF;
-    padding: 20px;
-    text-align: center;
-    margin: 10px;
-    height: 350px; }
-    #meetup .blanco button {
-      background-color: #FFA000; }
-      #meetup .blanco button a {
-        color: #FFFFFF;
-        text-decoration: none; }
-      #meetup .blanco button:hover {
-        background-color: #FFC107; }
-    #meetup .blanco .fa {
-      color: #FFC107;
-      font-size: 60px;
-      margin-top: 20px;
-      margin-bottom: 20px; }
-  #meetup .parraf {
-    font-family: "helvetica";
-    color: #212121;
-    font-size: 16px;
-    font-weight: normal;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    text-align: center; }
-    #meetup .parraf button {
-      background-color: #FFC107; }
-      #meetup .parraf button a {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-weight: bold; }
-  #meetup .fecha {
-    text-align: center;
-    font-family: "helvetica";
-    color: #212121;
-    font-size: 26px;
-    font-weight: bold; }
+    .hashtag .btn-force a {
+      color: #F7BD2A; }
+  .hashtag .btn-force:hover {
+    color: #FFF;
+    background-color: #F7BD2A;
+    border-radius: 4px;
+    border: 3px solid #F7BD2A;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 1px 17px 1px #fcf9fc;
+    -moz-box-shadow: 0px 1px 17px 1px #fcf9fc;
+    box-shadow: 0px 1px 17px 1px #fcf9fc; }
+    .hashtag .btn-force:hover a {
+      color: #FFF; }
 
 /* Style Jedi Masters */
 #maestros-jedi hr {
