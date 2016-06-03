@@ -1,6 +1,11 @@
-@media (max-width: 767px){
-	.logo-header {
-		z-index: 1;
+@media (max-width: 767px) and (min-width: 250px) {
+	.container {
+		min-width: 250px;
+		max-width: 767px;
+	}
+
+	.menu .menu-nav .navbar-brand img {
+		width: 90%;
 	}
 
 	.navbar-default .navbar-collapse 
@@ -10,10 +15,13 @@
 		border-style: none;
 	}
 
-
 	.que-es {
 		.meet {
 			margin: 10% auto;
+		}
+		.meets {
+			margin-bottom: 40px;
+			width: 100%;
 		}
 		p {
 			margin: 10% 10%;
@@ -29,21 +37,30 @@
 	    	}
     	}
     }
+
+    #chrono {
+    	.horario {
+    		height: auto;
+    		overflow: auto;
+    	}
+    }
 	
 	.hashtag {
 		.hashtag-text {
 			h1 {
-			font-size: 190%;
+			font-size: 150%;
 			}
 			button {
-			width: 40%;
+			width: auto;
 			height: auto;
-			font-size: 110%;
+			font-size: 100%;
+			overflow: auto;
 			}
 			button:hover {
-			width: 40%;
+			width: auto;
 			height: auto;
-			font-size: 110%;
+			font-size: 100%;
+			overflow: auto;
 			}
 		}
 	}
