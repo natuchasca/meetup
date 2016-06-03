@@ -1,27 +1,25 @@
 /* Style Jedi Masters */
 #maestros-jedi {
+  background-color: rgba(0, 0, 0, 0.1);
   @include linea;
+  @include marginsecciones;
   p {
     font-size: 16px;
   }
+  .titlejedi{
+  text-align: center;
+  font-family: "STARWARS";
+  }
+  h5 {
+    font-family:"STARWARS";
+    margin-bottom: -10px;
+  }
+  h6 {
+    margin-bottom: 5px;
+  }
+
 }
 
-.bg-grey{
-  background-color: rgba(0, 0, 0, 0.1);
-  @include marginsecciones;
-}
-.titlejedi{
-  text-align: center;
-  width:100%;
-  font-family: "STARWARS";
-}
-h5.name-jedi{
-  font-family:"STARWARS";
-  margin-bottom: -10px;
-}
-h6.name-jedi {
-  margin-bottom: 5px;
-}
 
 .red-icon{
   margin: 0 2%;
@@ -34,7 +32,11 @@ h6.name-jedi {
 }
 .jedi {
     display: block;
-    margin: 3% auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 0px;
 }
 .jedi .jedi-img {
   display: block;
@@ -101,8 +103,6 @@ h6.name-jedi {
   -o-transform: translate(0px, -30px) scale(0.5);
   -ms-transform: translate(0px, -30px) scale(0.5);
   border-radius: 50%;
-  margin-top: -25px;
-  margin-bottom: 20px;
 }
 .jedi:hover .jedi-text {
   z-index: 6;
