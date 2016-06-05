@@ -1,4 +1,4 @@
-/* Style Jedi Masters */
+/* Style Jedi Masters */  
 #maestros-jedi {
   background-color: rgba(0, 0, 0, 0.1);
   @include linea;
@@ -17,10 +17,21 @@
   h6 {
     margin-bottom: 5px;
   }
-
 }
-
-
+.name-jedi{
+  color: $white;
+  font-size: 25px;
+  margin-bottom: 1%;
+  position: absolute;
+  z-index: 8;
+  display: block;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+.name-jedi:hover{
+  z-index: -10;
+}
 .red-icon{
   margin: 0 2%;
   color:$black;
@@ -37,7 +48,6 @@
     margin-right: auto;
     margin-top: 3%;
     padding: 0px;
-
 }
 .jedi .jedi-img {
   display: block;
@@ -109,6 +119,7 @@
 }
 .jedi:hover .jedi-text {
   z-index: 6;
+  color: $black;
   -webkit-transform: 0px 0px 2;
   -moz-transform: 0px 0px 2;
   -o-transform: 0px 0px 2;
