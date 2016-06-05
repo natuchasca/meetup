@@ -28,9 +28,9 @@
   bottom: 40px;
   width: 100%;
   text-align: center;
-}
-.name-jedi:hover{
+  &:hover{
   z-index: -10;
+  }
 }
 .red-icon{
   margin: 0 2%;
