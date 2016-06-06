@@ -1,30 +1,8 @@
 .mainfooter{ 
 	
 	background-color: $black;
-	padding-top: 40px;
+	padding: 40px 0px;
 	
-}
-
-.foot2{
-	.icons {
-		@include iconos;
-		&:hover {
-		color: $yellow;
-		cursor: pointer;
-		}
-	}
-	ul 
-	li{
-		@include lista4;
-		a{
-			color:white;
-		}
-	}
-	ul > li a:hover {
-		color: $yellow;
-		cursor: pointer;
-		text-decoration: none;
-	}
 }
 
 .footerwidget {
@@ -46,31 +24,64 @@
 		@include letras;
 		padding-top: 20px;
 	}
-	h3 {
-		@inlcude letras;
-	}
 	iframe{
 		padding-top:10px;
-	}
-}
-
-.citripio{
-	@include cit;
-
-	img{
-		height: 100px;
-		width: 100px;
 	}
 }
 
 .foot {
 	h3{
 		@include texto5;
+		margin-bottom: -10px;
 	}
 }
+
 
 .foot2{
 	h3{
 		@include texto5;
+		margin-bottom: 0px;
+	}
+	.icons {
+		@include iconos;
+		z-index: 1;
+	}
+	.socialNetwork {
+		li {
+			width: 120px;
+			height: 30px;
+			@include lista4;
+			a {
+				display: block;
+				color: white;
+				width: 120px;
+				height: 30px;
+			}
+			span {
+				vertical-align: super;
+			}
+		}
+	}
+	li:hover,
+	i:hover {
+		color: $yellow;
+	}
+	
+	li > a:hover {
+		color: $yellow;
+		text-decoration: none;
 	}
 }
+
+
+
+.citripio{
+	@include cit;
+	margin-top: 20px;
+	img{
+		height: 100px;
+		width: 100px;
+		margin-bottom: -10px;
+	}
+}
+

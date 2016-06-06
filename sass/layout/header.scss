@@ -99,7 +99,7 @@
 
 	h1 {
 		font-family:"STARWARS";
-		font-size:140px;
+		font-size:150px;
 		color:$yellow;
 		text-align:center;
 		margin-top: 80px;
@@ -116,26 +116,4 @@
 
 
 
-/* RESPONSIVE */
-@media (max-width: 767px)
-{
-	.menu-nav
-	{
-		height:300px;
 
-		ul li a 
-		{
-			margin-bottom:10px;
-		}
-	}
-	#content
-{
-	position: absolute;
-	top: 100%;
-	animation: scroll 100s linear 1s infinite;
-}
-@keyframes scroll {
-	0% { top: 100%; }
-	100% { top: -170%; }
-}
-}

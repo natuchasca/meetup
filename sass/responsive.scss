@@ -1,38 +1,134 @@
-@media (max-width: 767px){
-	.logo-header {
-		z-index: 1;
+@media (max-width: 767px) and (min-width: 250px) {
+	.container {
+		min-width: 250px;
+		max-width: 767px;
 	}
 
-	.navbar-default .navbar-collapse, 
+	.menu .menu-nav .navbar-brand img {
+		height: 280%;
+		width: auto;
+		margin-left: -20px;
+	}
+
+
+
+	.navbar-default .navbar-collapse 
 	 {
 		border-color: none;
 		border-top: none;
 		border-style: none;
 	}
 
-
 	.que-es {
 		.meet {
 			margin: 10% auto;
+		}
+		.meets {
+			margin-bottom: 40px;
+			width: 100%;
 		}
 		p {
 			margin: 10% 10%;
 		}
 	}
+
+	/* JEdi zone */
+    
+    #maestros-jedi {
+    	.jedi {
+	    	.jedi-text {
+	    	bottom: 10%;
+	    	}
+    	}
+    }
+
+    #chrono {
+    	.horario {
+    		height: auto;
+    		overflow: auto;
+    	}
+    }
 	
 	.hashtag {
 		.hashtag-text {
 			h1 {
-			font-size: 190%;
+			font-size: 150%;
+			}
+			button {
+			width: auto;
+			height: auto;
+			font-size: 100%;
+			overflow: auto;
+			}
+			button:hover {
+			width: auto;
+			height: auto;
+			font-size: 100%;
+			overflow: auto;
 			}
 		}
 	}
-	
-	.mainfooter {
-		p {
-			margin-bottom: 50px;
-		}
 
-	}
 }
 
+
+/* Responsive burger, breakpoint edit */
+@media (max-width: 1130px) and (min-width: 768px) {
+
+	.navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: none;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+        padding-bottom: 10px;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+
+
+
+    /* JEdi zone */
+    
+    #maestros-jedi {
+    	.jedi {
+    		.jedi-img {
+	    	margin-bottom: 10%;
+	    	}
+	    	.jedi-text {
+	    	bottom: 12%;
+	    	}
+    	}
+    }
+
+
+
+
+
+}

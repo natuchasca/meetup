@@ -90,7 +90,7 @@
     top: -170%; } }
   .presentacion h1 {
     font-family: "STARWARS";
-    font-size: 140px;
+    font-size: 150px;
     color: #F7BD2A;
     text-align: center;
     margin-top: 80px; }
@@ -101,49 +101,9 @@
       color: #F7BD2A;
       font-size: 100px; }
 
-/* RESPONSIVE */
-@media (max-width: 767px) {
-  .menu-nav {
-    height: 300px; }
-    .menu-nav ul li a {
-      margin-bottom: 10px; }
-
-  #content {
-    position: absolute;
-    top: 100%;
-    animation: scroll 100s linear 1s infinite; }
-
-  @keyframes scroll {
-    0% {
-      top: 100%; }
-    100% {
-      top: -170%; } } }
 .mainfooter {
   background-color: #3B3D3F;
-  padding-top: 40px; }
-
-.foot2 .icons {
-  font-size: 30px;
-  color: #FFF;
-  margin-right: 10px; }
-  .foot2 .icons:hover {
-    color: #F7BD2A;
-    cursor: pointer; }
-.foot2 ul
-li {
-  list-style: none;
-  padding: 10px;
-  color: #FFF;
-  margin-left: -40px;
-  width: 150px;
-  height: 50px; }
-  .foot2 ul
-  li a {
-    color: white; }
-.foot2 ul > li a:hover {
-  color: #F7BD2A;
-  cursor: pointer;
-  text-decoration: none; }
+  padding: 40px 0px; }
 
 .footerwidget {
   padding: 0px 20px 0px 20px;
@@ -159,32 +119,69 @@ li {
   color: #FFF;
   font-family: helvetica;
   padding-top: 20px; }
-.foot h3 {
-  @inlcude letras; }
 .foot iframe {
   padding-top: 10px; }
-
-.citripio {
-  text-align: center;
-  font-family: helvetica;
-  color: #FFF; }
-  .citripio img {
-    height: 100px;
-    width: 100px; }
 
 .foot h3 {
   font-family: "STARWARS";
   color: #FFF;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: -10px; }
 
 .foot2 h3 {
   font-family: "STARWARS";
   color: #FFF;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 0px; }
+.foot2 .icons {
+  font-size: 30px;
+  color: #FFF;
+  margin-right: 10px;
+  z-index: 1; }
+.foot2 .socialNetwork li {
+  width: 120px;
+  height: 30px;
+  list-style: none;
+  padding: 10px;
+  color: #FFF;
+  margin-left: -40px;
+  width: 150px;
+  height: 50px; }
+  .foot2 .socialNetwork li a {
+    display: block;
+    color: white;
+    width: 120px;
+    height: 30px; }
+  .foot2 .socialNetwork li span {
+    vertical-align: super; }
+.foot2 li:hover,
+.foot2 i:hover {
+  color: #F7BD2A; }
+.foot2 li > a:hover {
+  color: #F7BD2A;
+  text-decoration: none; }
 
-@media (max-width: 767px) {
-  .logo-header {
-    z-index: 1; }
+.citripio {
+  text-align: center;
+  font-family: helvetica;
+  color: #FFF;
+  margin-top: 20px; }
+  .citripio img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: -10px; }
+
+@media (max-width: 767px) and (min-width: 250px) {
+  .container {
+    min-width: 250px;
+    max-width: 767px; }
+
+  .menu .menu-nav .navbar-brand img {
+    height: 280%;
+    width: auto;
+    margin-left: -20px; }
 
   .navbar-default .navbar-collapse {
     border-color: none;
@@ -193,14 +190,75 @@ li {
 
   .que-es .meet {
     margin: 10% auto; }
+  .que-es .meets {
+    margin-bottom: 40px;
+    width: 100%; }
   .que-es p {
     margin: 10% 10%; }
 
-  .hashtag .hashtag-text h1 {
-    font-size: 190%; }
+  /* JEdi zone */
+  #maestros-jedi .jedi .jedi-text {
+    bottom: 10%; }
 
-  .mainfooter p {
-    margin-bottom: 50px; } }
+  #chrono .horario {
+    height: auto;
+    overflow: auto; }
+
+  .hashtag .hashtag-text h1 {
+    font-size: 150%; }
+  .hashtag .hashtag-text button {
+    width: auto;
+    height: auto;
+    font-size: 100%;
+    overflow: auto; }
+  .hashtag .hashtag-text button:hover {
+    width: auto;
+    height: auto;
+    font-size: 100%;
+    overflow: auto; } }
+/* Responsive burger, breakpoint edit */
+@media (max-width: 1130px) and (min-width: 768px) {
+  .navbar-header {
+    float: none; }
+
+  .navbar-toggle {
+    display: block; }
+
+  .navbar-collapse {
+    border-top: none;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+  .navbar-collapse.collapse {
+    display: none !important; }
+
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px; }
+
+  .navbar-nav > li {
+    float: none;
+    padding-bottom: 10px; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  .navbar-text {
+    float: none;
+    margin: 15px 0; }
+
+  /* since 3.1.0 */
+  .navbar-collapse.collapse.in {
+    display: block !important; }
+
+  .collapsing {
+    overflow: hidden !important; }
+
+  /* JEdi zone */
+  #maestros-jedi .jedi .jedi-img {
+    margin-bottom: 10%; }
+  #maestros-jedi .jedi .jedi-text {
+    bottom: 12%; } }
 h1, h2 {
   font-family: "STARWARS"; }
 
@@ -214,34 +272,33 @@ p, h4, h6, li > a {
     padding-bottom: 2%;
     text-align: center; }
   .que-es p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    margin-top: 2%; }
+    .que-es p h3 {
+      margin-left: 300px; }
   .que-es img {
-    margin-top: 2%;
     width: 80%; }
-  .que-es h3 {
-    margin-bottom: -10px; }
+  .que-es h5 {
+    font-size: 11px;
+    margin-top: -30px;
+    color: #3B3D3F; }
   .que-es .boton-amarillo {
     background-color: #F7BD2A;
-    padding: 1%;
     width: 180px;
     border-radius: 5px;
-    margin-top: 1%;
     text-align: center;
-    margin: 20px auto;
-    color: white;
-    font-size: 20px;
-    border-style: none; }
-    .que-es .boton-amarillo a {
-      text-decoration: none;
-      color: white; }
+    margin: 40px auto 50px 0px;
+    border: none;
+    padding-bottom: 8px; }
+    .que-es .boton-amarillo .logo-1 {
+      width: 85%;
+      height: auto; }
   .que-es .boton-amarillo:hover {
-    background-color: #FFF;
-    font-weight: bold;
-    border: 3px solid #F7BD2A; }
-    .que-es .boton-amarillo:hover a {
-      color: #F7BD2A; }
+    -webkit-box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4); }
 
 /* Programaci├│n */
 .programacion {
@@ -260,7 +317,8 @@ p, h4, h6, li > a {
     margin-bottom: 20px;
     min-width: 200px;
     background-color: #F2F6F7;
-    padding: 12px; }
+    padding: 12px;
+    border: 1px solid #F7BD2A; }
     .programacion .horario .box-hora {
       width: 85px;
       height: 85px;
@@ -293,25 +351,27 @@ p, h4, h6, li > a {
     font-size: 16px; }
   .colaboradores img {
     height: auto;
-    margin-bottom: 20px; }
+    margin: 0px 0px 20px 0px;
+    display: inline; }
     .colaboradores img.laboratoria {
-      margin-top: 50px;
-      width: 100%; }
+      width: 50%;
+      margin-top: 10px; }
     .colaboradores img.blanco {
-      margin-top: 10px;
-      width: 100%; }
+      width: 40%; }
     .colaboradores img.fabrica {
-      margin-top: 20px;
-      width: 90%; }
+      width: 40%; }
+    .colaboradores img.gitlab {
+      width: 25%;
+      margin-right: 20px; }
     .colaboradores img.sol {
-      width: 75%; }
+      width: 30%; }
 
 /* Hashtag */
 .hashtag {
   padding: 30px 0px;
   background-image: url("../img/star_bg.jpg");
-  padding: 60px 0px;
-  height: 45vh;
+  padding: 50px 0px;
+  max-height: 250px;
   background-position: 0px 0px;
   background-repeat: repeat-x;
   animation: animatedBackground 10s linear infinite;
@@ -324,7 +384,8 @@ p, h4, h6, li > a {
   .hashtag h1 {
     font-family: "STARWARS";
     color: #F7BD2A;
-    font-size: 50px; }
+    font-size: 50px;
+    margin-bottom: 30px; }
 @keyframes animatedBackground {
   from {
     background-position: 0 0; }
@@ -345,126 +406,51 @@ p, h4, h6, li > a {
     background-position: 0 0; }
   to {
     background-position: 100% 0; } }
-/* INCIO SECCION BY CHUWAKA TEAM */
-#meetup {
-  padding-top: 50px;
-  padding-bottom: 150px;
-  background-color: #FFA000; }
-  #meetup .btn {
-    margin-top: 40px; }
-  #meetup .titulo h1 {
-    text-align: center;
-    font-family: "helvetica";
-    color: #FFC107;
-    font-size: 60px;
+  .hashtag .btn-force {
+    width: 220px;
+    height: 50px;
+    background-color: #FFF;
+    color: #F7BD2A;
+    border-radius: 4px;
     font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 0px; }
-    #meetup .titulo h1 span {
-      font-family: "helvetica";
-      color: #FFFFFF;
-      font-size: 60px;
-      font-weight: bold; }
-  @media (min-width: 220px) and (max-width: 767px) {
-    #meetup .titulo h1 {
-      text-align: center;
-      font-family: "helvetica";
-      color: #FFC107;
-      font-size: 40px;
-      font-weight: bold; }
-      #meetup .titulo h1 span {
-        font-family: "helvetica";
-        color: #FFFFFF;
-        font-size: 40px;
-        font-weight: bold; } }
-  #meetup .fecha h1 {
-    font-family: "helvetica"; }
-  #meetup .suma {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    border: 3px solid #F7BD2A;
+    margin-top: -5px;
+    font-size: 20px;
     text-align: center; }
-    #meetup .suma img {
-      width: 50px; }
-    #meetup .suma span {
-      font-family: "helvetica";
-      color: #FFFFFF;
-      font-size: 50px;
-      font-weight: bold;
-      margin-right: 20px;
-      margin-left: 20px; }
-    #meetup .suma .fa {
-      color: #FFFFFF;
-      font-size: 50px; }
-  #meetup .col-md-4 {
-    box-sizing: border-box; }
-  #meetup .blanco {
-    font-family: "helvetica";
-    color: #212121;
-    font-size: 18px;
-    font-weight: normal;
-    background-color: #FFFFFF;
-    padding: 20px;
-    text-align: center;
-    margin: 10px;
-    height: 350px; }
-    #meetup .blanco button {
-      background-color: #FFA000; }
-      #meetup .blanco button a {
-        color: #FFFFFF;
-        text-decoration: none; }
-      #meetup .blanco button:hover {
-        background-color: #FFC107; }
-    #meetup .blanco .fa {
-      color: #FFC107;
-      font-size: 60px;
-      margin-top: 20px;
-      margin-bottom: 20px; }
-  #meetup .parraf {
-    font-family: "helvetica";
-    color: #212121;
-    font-size: 16px;
-    font-weight: normal;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    text-align: center; }
-    #meetup .parraf button {
-      background-color: #FFC107; }
-      #meetup .parraf button a {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-weight: bold; }
-  #meetup .fecha {
-    text-align: center;
-    font-family: "helvetica";
-    color: #212121;
-    font-size: 26px;
-    font-weight: bold; }
+    .hashtag .btn-force a {
+      color: #F7BD2A; }
+  .hashtag .btn-force:hover {
+    color: #FFF;
+    background-color: #F7BD2A;
+    border-radius: 4px;
+    border: 3px solid #F7BD2A;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 1px 17px 1px #fcf9fc;
+    -moz-box-shadow: 0px 1px 17px 1px #fcf9fc;
+    box-shadow: 0px 1px 17px 1px #fcf9fc; }
+    .hashtag .btn-force:hover a {
+      color: #FFF; }
 
 /* Style Jedi Masters */
-#maestros-jedi hr {
-  width: 50px;
-  background-color: #F7BD2A;
-  border: 1px solid #F7BD2A;
-  margin-top: 10px;
-  margin-bottom: 30px; }
-#maestros-jedi p {
-  font-size: 16px; }
-
-.bg-grey {
+#maestros-jedi {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 30px 0px; }
-
-.titlejedi {
-  text-align: center;
-  width: 100%;
-  font-family: "STARWARS"; }
-
-h5.name-jedi {
-  font-family: "STARWARS";
-  margin-bottom: -10px; }
-
-h6.name-jedi {
-  margin-bottom: 5px; }
+  #maestros-jedi hr {
+    width: 50px;
+    background-color: #F7BD2A;
+    border: 1px solid #F7BD2A;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  #maestros-jedi p {
+    font-size: 16px; }
+  #maestros-jedi .titlejedi {
+    text-align: center;
+    font-family: "STARWARS"; }
+  #maestros-jedi h5 {
+    font-family: "STARWARS";
+    margin-bottom: -10px; }
+  #maestros-jedi h6 {
+    margin-bottom: 5px; }
 
 .red-icon {
   margin: 0 2%;
@@ -475,17 +461,22 @@ h6.name-jedi {
     text-decoration: none; }
 
 .jedi {
+  position: relative;
   display: block;
-  margin: 3% auto; }
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  padding: 0px; }
 
 .jedi .jedi-img {
   display: block;
+  vertical-align: top;
   margin-left: auto;
   margin-right: auto;
   width: 95%;
   border-radius: 10px;
   box-shadow: 5px 5px 8px #ccc;
-  margin-bottom: 3%;
+  margin-bottom: 8%;
   -webkit-transform: 0px 0px 1;
   -moz-transform: 0px 0px 1;
   -o-transform: 0px 0px 1;
@@ -509,7 +500,7 @@ h6.name-jedi {
   position: absolute;
   z-index: -1;
   display: block;
-  bottom: 20px;
+  bottom: 40px;
   width: 100%;
   text-align: center;
   -webkit-transform: 0px 0px 1;
@@ -543,8 +534,7 @@ h6.name-jedi {
   -o-transform: translate(0px, -30px) scale(0.5);
   -ms-transform: translate(0px, -30px) scale(0.5);
   border-radius: 50%;
-  margin-top: -25px;
-  margin-bottom: 20px; }
+  vertical-align: top; }
 
 .jedi:hover .jedi-text {
   z-index: 6;
