@@ -447,7 +447,7 @@ p, h4, h6, li > a {
     margin-bottom: 5px; }
 
 .name-jedi {
-  color: #FFF;
+  color: #F2F6F7;
   font-size: 25px;
   margin-bottom: 1%;
   position: absolute;
@@ -456,8 +456,6 @@ p, h4, h6, li > a {
   bottom: 40px;
   width: 100%;
   text-align: center; }
-  .name-jedi:hover {
-    z-index: -10; }
 
 .red-icon {
   margin: 0 2%;
@@ -558,5 +556,7 @@ p, h4, h6, li > a {
   -ms-transform: translate(0px, 0px) scale(2); }
 
 /* Style Jedi Masters */
+.jedi:hover .name-jedi {
+  opacity: 0; }
 
 /*# sourceMappingURL=main.css.map */

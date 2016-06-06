@@ -19,7 +19,7 @@
   }
 }
 .name-jedi{
-  color: $white;
+  color: $grey;
   font-size: 25px;
   margin-bottom: 1%;
   position: absolute;
@@ -28,9 +28,6 @@
   bottom: 40px;
   width: 100%;
   text-align: center;
-  &:hover{
-  z-index: -10;
-  }
 }
 .red-icon{
   margin: 0 2%;
@@ -132,3 +129,11 @@
   -ms-transform: translate(0px, 0px) scale(2);
 }
 /* Style Jedi Masters */ 
+
+.jedi{
+  &:hover{
+    .name-jedi{
+      opacity: 0;
+    }
+  }
+}
