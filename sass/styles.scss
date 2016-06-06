@@ -21,19 +21,29 @@ p, h4, h6, li>a {
 	text-align: justify;
 	margin-bottom: 20px;
 	margin-top: 2%;
+	h3 
+	{
+		margin-left:300px;
+	}
 	}
 	img{
 	width:80%;
 	}
-	h3 {
-		margin-bottom: -10px;
+	
+	h5
+	{
+		
+		font-size:11px;
+		margin-top:-30px;
+		color:$black;
+		
 	}
 	.boton-amarillo{
 	background-color:$yellow;
 	width: 180px;
 	border-radius: 5px;
 	text-align:center;
-	margin: 20px auto 50px 0px;
+	margin: 40px auto 50px 0px;
 	border: none;
 	padding-bottom: 8px;
 		.logo-1 {
