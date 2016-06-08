@@ -1,4 +1,4 @@
-/* Style Jedi Masters */
+/* Style Jedi Masters */  
 #maestros-jedi {
   background-color: rgba(0, 0, 0, 0.1);
   @include linea;
@@ -10,17 +10,37 @@
   text-align: center;
   font-family: "STARWARS";
   }
-  h5 {
-    font-family:"STARWARS";
-    margin-bottom: -10px;
+  .jedi-text {
+    h5 {
+      font-family:"STARWARS";
+      margin-bottom: -10px;
+    }
+    h6 {
+      margin-bottom: 5px;
+    }
   }
-  h6 {
-    margin-bottom: 5px;
-  }
-
+  
 }
-
-
+.name-jedi{
+  width: 100%;
+  padding-top: 300px;
+  color: $white;
+  font-size: 25px;
+  margin-bottom: 1%;
+  position: absolute;
+  display: block;
+  bottom: 40px;
+  text-align: center;
+  h5 {
+    font-family: $tipo_norm;
+    font-weight: bold;
+    margin-bottom: -5px;
+  }
+}
+.name-jedi:hover,
+.name-jedi:after {
+  display: none;
+}
 .red-icon{
   margin: 0 2%;
   color:$black;
@@ -37,7 +57,6 @@
     margin-right: auto;
     margin-top: 3%;
     padding: 0px;
-
 }
 .jedi .jedi-img {
   display: block;
@@ -106,9 +125,14 @@
   -ms-transform: translate(0px, -30px) scale(0.5);
   border-radius: 50%;
   vertical-align: top;
+  .name-jedi:hover,
+  .name-jedi:after {
+    display: none;
+  }
 }
 .jedi:hover .jedi-text {
   z-index: 6;
+  color: $black;
   -webkit-transform: 0px 0px 2;
   -moz-transform: 0px 0px 2;
   -o-transform: 0px 0px 2;
@@ -119,5 +143,9 @@
   -moz-transform: translate(0px, 0px) scale(2);
   -o-transform: translate(0px, 0px) scale(2);
   -ms-transform: translate(0px, 0px) scale(2);
+  .name-jedi:hover,
+  .name-jedi:after {
+    display: none;
+  }
 }
 /* Style Jedi Masters */ 

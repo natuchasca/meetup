@@ -69,7 +69,10 @@ p, h4, h6, li>a {
 .yoda-part {
 	@include marginsecciones;
 	background-image: url("../img/star_bg.jpg");
-	max-height: 370px;
+	background-size: cover;
+	background-position: center;
+	min-height: 370px;
+	height: 100%;
 	@include followboton;
 	.yoda {
 		width: 180px;
@@ -137,7 +140,7 @@ p, h4, h6, li>a {
 	  }
 	img {
 		height: auto;
-		margin: 0px 0px 20px 0px;
+		margin: 0px 0px 30px 0px;
 		display: inline;
 		&.laboratoria {
 			width: 50%;
@@ -165,6 +168,7 @@ p, h4, h6, li>a {
 	background-image: url("../img/star_bg.jpg");
 	padding: 50px 0px;
 	max-height: 250px;
+	height: 100%;
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
 	animation: animatedBackground 10s linear infinite;

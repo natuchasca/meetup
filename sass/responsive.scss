@@ -10,6 +10,15 @@
 		margin-left: -20px;
 	}
 
+	.navbar-nav>li {
+        float: none;
+        padding-bottom: 10px;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
 
 
 	.navbar-default .navbar-collapse 
@@ -52,7 +61,7 @@
 	.hashtag {
 		.hashtag-text {
 			h1 {
-			font-size: 150%;
+			font-size: 120%;
 			}
 			button {
 			width: auto;
