@@ -33,6 +33,40 @@
 }
 
 
+/* Botón */
+@mixin followboton {
+	.btn-force {
+		width: 220px;
+		height: 50px;
+		background-color:$white;
+		color:$yellow;
+		border-radius:4px;
+		font-weight:bold;
+		border: 3px solid $yellow;
+		margin: 10px auto;
+		font-size: 20px;
+		text-align: center;
+		a {
+			color: $yellow;
+		}
+	}
+	.btn-force:hover {
+		color:$white;
+		background-color:$yellow;
+		border-radius:4px;
+		border: 3px solid $yellow;
+		font-size: 20px;
+		-webkit-box-shadow: 0px 1px 17px 1px rgba(252,249,252,1);
+		-moz-box-shadow: 0px 1px 17px 1px rgba(252,249,252,1);
+		box-shadow: 0px 1px 17px 1px rgba(252,249,252,1);
+		a {
+			color: $white;
+		}
+	}
+}
+
+
+
 @mixin iconos {
 	font-size: 30px;
 	color: $white;

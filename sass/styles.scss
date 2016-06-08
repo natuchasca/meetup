@@ -26,10 +26,14 @@ p, h4, h6, li>a {
 		margin-left:300px;
 	}
 	}
-	img{
+	.meet{
 	width:80%;
+	margin-bottom: 20px;
 	}
-	
+	a {
+		color: $black;
+		text-decoration: none;
+	}
 	h5
 	{
 		
@@ -59,6 +63,27 @@ p, h4, h6, li>a {
 	
 
 }
+
+
+/* yoda */
+.yoda-part {
+	@include marginsecciones;
+	background-image: url("../img/star_bg.jpg");
+	max-height: 370px;
+	@include followboton;
+	.yoda {
+		width: 180px;
+		height: auto;
+		margin: 0 auto;
+	}
+	cite {
+		font-family: $tipo_norm;
+		color: $yellow;
+		margin-bottom: 40px;
+	}
+}
+
+	
 
 
 /* Programación */
@@ -150,7 +175,7 @@ p, h4, h6, li>a {
 	a:hover {
 		text-decoration: none;
 	}
-	h1, {
+	h1 {
 		font-family:"STARWARS";
 		color: $yellow;
 		font-size: 50px;

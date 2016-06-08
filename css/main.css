@@ -2,6 +2,7 @@
 /* Propiedes imagen background fixed */
 /* Margenes de secciones */
 /* L├¡nea */
+/* Bot├│n */
 /*STILOS HEADER lissette*/
 .menu .navbar-toggle, .menu .nav {
   background-color: #3B3D3F; }
@@ -278,8 +279,12 @@ p, h4, h6, li > a {
     margin-top: 2%; }
     .que-es p h3 {
       margin-left: 300px; }
-  .que-es img {
-    width: 80%; }
+  .que-es .meet {
+    width: 80%;
+    margin-bottom: 20px; }
+  .que-es a {
+    color: #3B3D3F;
+    text-decoration: none; }
   .que-es h5 {
     font-size: 11px;
     margin-top: -30px;
@@ -299,6 +304,44 @@ p, h4, h6, li > a {
     -webkit-box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4); }
+
+/* yoda */
+.yoda-part {
+  padding: 30px 0px;
+  background-image: url("../img/star_bg.jpg");
+  max-height: 370px; }
+  .yoda-part .btn-force {
+    width: 220px;
+    height: 50px;
+    background-color: #FFF;
+    color: #F7BD2A;
+    border-radius: 4px;
+    font-weight: bold;
+    border: 3px solid #F7BD2A;
+    margin: 10px auto;
+    font-size: 20px;
+    text-align: center; }
+    .yoda-part .btn-force a {
+      color: #F7BD2A; }
+  .yoda-part .btn-force:hover {
+    color: #FFF;
+    background-color: #F7BD2A;
+    border-radius: 4px;
+    border: 3px solid #F7BD2A;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 1px 17px 1px #fcf9fc;
+    -moz-box-shadow: 0px 1px 17px 1px #fcf9fc;
+    box-shadow: 0px 1px 17px 1px #fcf9fc; }
+    .yoda-part .btn-force:hover a {
+      color: #FFF; }
+  .yoda-part .yoda {
+    width: 180px;
+    height: auto;
+    margin: 0 auto; }
+  .yoda-part cite {
+    font-family: helvetica;
+    color: #F7BD2A;
+    margin-bottom: 40px; }
 
 /* Programaci├│n */
 .programacion {
