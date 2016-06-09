@@ -292,7 +292,8 @@ p, h4, h6, li > a {
       margin-left: 300px; }
   .que-es .meet {
     width: 80%;
-    margin-bottom: 20px; }
+    margin-bottom: 30px;
+    height: 110; }
   .que-es a {
     color: #3B3D3F;
     text-decoration: none; }
@@ -301,8 +302,7 @@ p, h4, h6, li > a {
     margin-top: -30px;
     color: #3B3D3F; }
   .que-es .suma {
-    background-color: #F7BD2A;
-    color: white;
+    color: #3D3B3F;
     font-height: bold;
     width: 100%;
     margin-top: 100px;
@@ -310,10 +310,7 @@ p, h4, h6, li > a {
     padding-bottom: 20px;
     padding-left: 40px;
     padding-top: 10px;
-    font-size: 30px;
-    border-radius: 4px;
-    -webkit-box-shadow: 2px 2px 4px 4px #E1E1E1;
-    box-shadow: 2px 2px 4px 4px #E1E1E1; }
+    font-size: 30px; }
     .que-es .suma img {
       width: 60px;
       height: 60px;
@@ -322,7 +319,7 @@ p, h4, h6, li > a {
       margin-bottom: 10px; }
     .que-es .suma .fa {
       font-size: 50px;
-      color: white;
+      color: #3D3B3F;
       margin-left: 20px;
       margin-right: 30px;
       padding-top: 20px; }
