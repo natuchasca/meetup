@@ -21,7 +21,7 @@
     margin-left: 20px; }
     .menu .menu-nav .navbar-brand img {
       height: 60px;
-      width: 250px;
+      width: auto;
       margin-top: 13px; }
   .menu .menu-nav ul {
     margin-right: 30px; }
@@ -394,7 +394,9 @@ p, h4, h6, li > a {
 
 /* Colaboradores */
 .colaboradores {
-  padding: 30px 0px; }
+  padding: 30px 0px;
+  min-height: 350px;
+  height: 100%; }
   .colaboradores hr {
     width: 50px;
     background-color: #F7BD2A;
@@ -403,22 +405,35 @@ p, h4, h6, li > a {
     margin-bottom: 30px; }
   .colaboradores p {
     font-size: 16px; }
+  .colaboradores a {
+    text-decoration: none; }
   .colaboradores img {
     height: auto;
-    margin: 0px 0px 30px 0px;
+    margin: 10px 0px 30px 0px;
     display: inline; }
     .colaboradores img.laboratoria {
-      width: 50%;
-      margin-top: 10px; }
+      width: 80%;
+      margin-top: 20px; }
+      .colaboradores img.laboratoria:hover {
+        width: 83%; }
     .colaboradores img.blanco {
       width: 40%; }
+      .colaboradores img.blanco:hover {
+        width: 43%; }
     .colaboradores img.fabrica {
-      width: 40%; }
+      width: 40%;
+      margin-right: 20px; }
+      .colaboradores img.fabrica:hover {
+        width: 43%; }
     .colaboradores img.gitlab {
       width: 25%;
-      margin-right: 20px; }
+      margin-right: 25px; }
+      .colaboradores img.gitlab:hover {
+        width: 28%; }
     .colaboradores img.sol {
       width: 30%; }
+      .colaboradores img.sol:hover {
+        width: 33%; }
 
 /* Hashtag */
 .hashtag {
