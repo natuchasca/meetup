@@ -1,8 +1,7 @@
-@charset "UTF-8";
 /* Propiedes imagen background fixed */
 /* Margenes de secciones */
-/* L├¡nea */
-/* Bot├│n */
+/* Línea */
+/* Botón */
 /*STILOS HEADER lissette*/
 .menu .navbar-toggle, .menu .nav {
   background-color: #3B3D3F; }
@@ -205,8 +204,7 @@
   .que-es p {
     margin: 10% 10%; }
   .que-es .suma {
-    width: 100%;
-    margin-left: -100px; }
+    width: 20%; }
 
   /* JEdi zone */
   #maestros-jedi .jedi .jedi-text {
@@ -293,7 +291,7 @@ p, h4, h6, li > a {
   .que-es .meet {
     width: 80%;
     margin-bottom: 30px;
-    height: 110; }
+    height: auto; }
   .que-es a {
     color: #3B3D3F;
     text-decoration: none; }
@@ -303,10 +301,11 @@ p, h4, h6, li > a {
     color: #3B3D3F; }
   .que-es .suma {
     color: #3D3B3F;
-    font-height: bold;
+    font-weight: bold;
     width: 100%;
-    margin-top: 100px;
-    margin-left: 300px;
+    max-width: 700px;
+    height: auto;
+    margin: 20px auto;
     padding-bottom: 20px;
     padding-left: 40px;
     padding-top: 10px;
@@ -331,7 +330,7 @@ p, h4, h6, li > a {
     width: 180px;
     border-radius: 5px;
     text-align: center;
-    margin: 40px auto 50px 0px;
+    margin: 10px auto 50px 0px;
     border: none;
     padding-bottom: 8px; }
     .que-es .boton-amarillo .logo-1 {
@@ -386,9 +385,7 @@ p, h4, h6, li > a {
     color: #F7BD2A; }
   .yoda-part .tittle .pasos {
     width: 600px;
-    margin-left: 450px;
-    margin-top: 40px;
-    margin-bottom: 60px; }
+    margin: 40px auto; }
     .yoda-part .tittle .pasos p {
       color: white;
       text-align: justify;
@@ -403,7 +400,7 @@ p, h4, h6, li > a {
       .yoda-part .tittle .pasos p strong em {
         color: white; }
 
-/* Programaci├│n */
+/* Programación */
 .programacion {
   padding: 30px 0px;
   height: auto; }
