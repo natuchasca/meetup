@@ -94,6 +94,12 @@
     		height: auto;
     		overflow: auto;
     	}
+    	.actividad {
+    		p {
+    			margin-left: 0px;
+    			display: inline-block;
+    		}
+    	}
     }
 	
 	.hashtag {
@@ -185,8 +191,19 @@
     	}
     }
 
-
-
-
+    #chrono {
+    	.horario {
+    		height: auto;
+    		overflow: auto;
+    	}
+    	.actividad {
+    		p {
+    			margin-left: 0px;
+    			float: left;
+    		}
+    	}
+    }
 
 }
+
+
