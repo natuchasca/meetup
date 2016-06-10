@@ -1,11 +1,11 @@
-@media (max-width: 767px) and (min-width: 250px) {
+@media (max-width: 767px) and (min-width: 200px) {
 	.container {
 		min-width: 250px;
 		max-width: 767px;
 	}
 
 	.menu .menu-nav .navbar-brand img {
-		height: 280%;
+		height: 250%;
 		width: auto;
 		margin-left: -20px;
 	}
@@ -28,6 +28,21 @@
 		border-style: none;
 	}
 
+	.presentacion {
+		width: 100%;
+		.title {
+			width: 200px;
+			height: auto;
+			transform-origin: 50% 100%;
+			transform: perspective(50px) rotateX(25deg);
+			p, h1 {
+				width: 50%;
+			}
+		}
+	}
+
+
+
 	.que-es {
 		.meet {
 			margin: 10% auto;
@@ -38,6 +53,29 @@
 		}
 		p {
 			margin: 10% 10%;
+		}
+		.suma {
+			width: 90%;
+			.big-icon {
+				width: 30px;
+				height: auto;
+				margin: 0;
+			}
+			span {
+				font-size: 20px !important; 
+				margin: 0 !important;
+			}
+			.fa {
+				font-size: 40px !important; 
+				margin: 0 !important;
+			}
+			
+		}
+
+		.yoda-part {
+			.pasos {
+				margin: 10% 10%;
+			}
 		}
 	}
 
@@ -75,6 +113,16 @@
 			font-size: 100%;
 			overflow: auto;
 			}
+		}
+	}
+
+	#footerWrapper {
+		.footerwidget {
+			padding-right: 20px;
+		}
+		iframe {
+			width: 100%;
+			height: auto;
 		}
 	}
 
@@ -120,6 +168,7 @@
     .collapsing {
         overflow: hidden!important;
     }
+
 
 
 

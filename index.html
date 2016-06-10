@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>MeetUp Laboratoria</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="image/favicon.ico" type="image/x-icon">
 	<link rel="icon" type="image/png" href="img/logolaboratoriaicon.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -16,7 +18,8 @@
 		<nav class="navbar navbar-default menu-nav">
 			<div class="container-fluid">
 				<div class="row">
-					<!-- responsive menu -->
+					<div class="col-xs-12">
+						<!-- responsive menu -->
 				    <div class="navbar-header">
 				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 				        <span class="sr-only">Toggle navigation</span>
@@ -30,7 +33,7 @@
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      
 				      <ul class="nav navbar-nav navbar-right">
-				        <li><a class="scroller" href="#que">Qué es</a></li>
+				        <li><a class="scroller" href="#que">¿Qué es?</a></li>
 				        <li><a class="scroller" href="#maestros-jedi">Speakers</a></li>
 				        <li><a class="scroller" href="#chrono">Programación</a></li>
 				        <li><a class="scroller" href="#cancilleres">Cancilleres</a></li>
@@ -38,13 +41,15 @@
 				        <li><a class="scroller" href="https://welcu.com/laboratoria-chile/meetup-laboratoria" target="_blank">Únete a la Fuerza!</a></li>
 				      </ul>
 				    </div><!-- /.navbar-collapse -->
+					</div>
+					
 				</div><!-- /.row -->
 		  	</div><!-- /.container-fluid -->
 		</nav>
 	</header>
 	<!-- presentacion -->
-	<section class="presentacion text-center">
-		<div class="fondo fondo-fixed modulo-alto fondo-1">
+	<header class="presentacion text-center">
+		<div class="fondo fondo-fixed modulo-alto fondo-1 col-sx-12">
 			<div class="tittle">
 				<div id="content">
 					<p>Sé participe del primer MEETUP de Laboratoria Chile y sumérgete en el mundo FRONT-END DEVELOPMENT, que a pasos agigantandos se va tomando el universo informático, innovando en el desarrollo del web design.
@@ -56,7 +61,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</header>
 	<!--FIN DESARROLLO MENU Y HEADER-->
 
 	<!-- Que es laboratoria -->
@@ -68,8 +73,8 @@
 				</div>
 			</div>		
 			<div class="row">
-				<div class="col-md-6 text-center meets">		
-					<img src="img/meethefront.png" class="meet">
+				<div class="col-md-6 text-center meets">
+					<img src="img/meet negro.png" class="meet">
 					<h4>23 Junio 2016 | 19hrs</h4>
 					<h4>IF Blanco - Fábrica de Medios</h4>
 					<h4>Av. Puma 1180, Recoleta</h4>
@@ -78,13 +83,25 @@
 					<p> <strong>MeetTheFront</strong> es un MeetUp de <a href="http://laboratoria.cl/"><b>Laboratoria</b></a>, donde se abordarán temas del mundo <em>FRONTEND</em> además se presentarán charlas relacionadas al ambiente digital, profesional y género donde le invitarán a tomar otras perspectivas del cosmo informático. También tendremos testimonios de alumnas y ex-alumnas de Laboratoria.
 					<br>
 					<br>
-					Te invitamos a <b>compartir unas cerbezas gracias a nuestro auspiciador "Cervezas Sol", comer deliciosas pizzas y mantener una grata conversación.</b>
+					Te invitamos a <b>compartir unas cervezas gracias a nuestro auspiciador "Cervezas Sol", comer deliciosas pizzas y mantener una grata conversación.</b>
 					</p>
 				</div>
 			</div>	
+			<div class="row">
+				<div class="col-md-12 col-xs-12 text-center">
+					<div class="suma">
+						<img src="img/1.png"  class="big-icon">
+						<span>+</span>
+						<img src="img/beer copy.png" height="512" width="512" class="big-icon">
+						<span>+</span>
+						<i class="fa fa-code" aria-hidden="true"></i>
+						<span>=</span>
+						<i class="fa fa-heart" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
 			<div class="row">	
 				<div class="col-md-12 col-xs-12 text-center">
-
 					<a class="btn btn-primary boton-amarillo" role="button" href="http://laboratoria.cl/" target="_blank">
 						<img src="img/0_laboratoria_button.png" height="361" width="1308" class="logo-1">
 					</a>
@@ -95,11 +112,29 @@
 	</section>
 	<!-- YODA -->
 	<section class="yoda-part text-center" id="animate-area">
-		<div class="container-fluid">
-			<div class="yoda-text">
-				<img src="http://stickersocial.net/wp-content/uploads/2014/12/Star-Wars-Yoda-Collection-Stickers-639882.png" alt="" class="img-responsive yoda">
-				<h2><cite>"Si asistir al Meetup quieres, darle click al botón debes"</cite></h2>
-				<button class="btn btn-default btn-force" href="https://welcu.com/laboratoria-chile/meetup-laboratoria" target="_blank">¡Únete a la Fuerza!</button>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 col-xs-12">
+					<h1>Pasos para ser Jedi</h1>
+					<div class="pasos">
+						<p><i class="fa fa-ticket" aria-hidden="true"></i> Obtén tu ticket. <strong>Haz click en el botón!</strong></p>
+						<p><i class="fa fa-users" aria-hidden="true"></i> Invita a tus amigos y asiste al encuentro! </p><br>
+						<p><i class="fa fa-twitter" aria-hidden="true"></i>Participa durante las charlas comentando con el hashtag <strong>
+							#MayTheFrontbeWithYou
+						</strong></p> <br>
+						<p><i class="fa fa-comments" aria-hidden="true"></i> Haz redes de contacto con los asistentes, <strong>comparte y disfruta cervezas y pizza </strong></p> <br>
+						<p><i class="fa fa-smile-o" aria-hidden="true"></i> <strong><em>Diviértete!</em></strong></p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="yoda-text">
+						<img src="http://stickersocial.net/wp-content/uploads/2014/12/Star-Wars-Yoda-Collection-Stickers-639882.png" alt="" class="img-responsive yoda">
+						<h2><cite>"Si asistir al Meetup quieres, darle click al botón debes"</cite></h2>
+						<button class="btn btn-default btn-force" href="https://welcu.com/laboratoria-chile/meetup-laboratoria" target="_blank">¡Únete a la Fuerza!</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -346,13 +381,13 @@
 		<section class="mainfooter">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5 footerwidget">
+					<div class="col-md-5 col-xs-12 footerwidget">
 						<div>
 							<img src="img/meet.png" alt="latest Little Neko news" id="footerLogo" class="img-responsive">
 							<p><a href="http://laboratoria.la/" target="_blank" title="Laboratoria"><strong>Meet the Front</strong></a> de <a href="http://laboratoria.cl/"><em>Laboratoria Chile</em></a>, desarrollado para crear una instancia de reunión para compartir ideas, conocimientos y exponer posibles proyectos web según lo solicita un cliente. Esta instancia fue coordinada por <strong><em>Laboratoria Chile</em></strong>, grupo de profesionales emprendedores encargados de capacitar a mujeres dentro del área de <em>Front End / Diseño Web y Programación</em> para que esten preparadas y formadas para integrarse al mundo tecnológico, integrando todos los lenguajes necesarios. Actualmente se encuentran trabajando en el co-work de "Fábrica de Medios" en la comuna de Recoleta. </p>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-xs-12">
 						<div class="foot">
 							<h3>Ubicación</h3>
 							<address>
@@ -360,13 +395,12 @@
 									Puma 1180, Recoleta, Región Metropolitana <br>
 									(2) 2785 4456
 									<br>
-									
-									<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3330.1602968412412!2d-70.6438884!3d-33.419065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5ebb9db324b%3A0x67b14a2c7f59293b!2sMEETUP-LABORATORIA!5e0!3m2!1ses-419!2scl!4v1465436963418" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2800.312140980197!2d-70.64289217050667!3d-33.419304217049614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x9662c5ebb9db324b%3A0x67b14a2c7f59293b!2sMEETUP-LABORATORIA+-+Puma%2C+Recoleta%2C+Chile!3m2!1d-33.4190451!2d-70.6417099!5e0!3m2!1ses-419!2scl!4v1465486849256" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
 								</p>
 							</address>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-xs-12">
 						<div class="foot2">
 							<h3>Contáctanos!</h3>
 							<ul class="socialNetwork">
@@ -398,7 +432,7 @@
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 citripio" alt="c3p0.ux@gmail.com"> 
+					<div class="col-md-12 col-xs-12 citripio" alt="c3p0.ux@gmail.com"> 
 						<img src="img/c3po.png">
 						<p><h6>c3p0.ux@gmail.com</h6></p>
 					</div>
