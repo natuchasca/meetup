@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* Propiedes imagen background fixed */
 /* Margenes de secciones */
-/* L├¡nea */
-/* Bot├│n */
+/* Línea */
+/* Botón */
 /*STILOS HEADER lissette*/
 .menu .navbar-toggle, .menu .nav {
   background-color: #3B3D3F; }
@@ -47,7 +47,9 @@
     font-weight: bold; }
 
 .presentacion {
-  background-image: url("../img/star_bg.jpg"); }
+  background-image: url("../img/star_bg.jpg");
+  max-width: 100%;
+  overflow: hidden; }
   .presentacion body {
     margin: 0; }
   .presentacion .fondo {
@@ -71,6 +73,12 @@
     overflow: hidden;
     transform-origin: 50% 100%;
     transform: perspective(300px) rotateX(25deg); }
+    @media (max-width: 768px) {
+      .presentacion .tittle {
+        max-width: 100%;
+        overflow: hidden;
+        left: 54%;
+        font-size: 200%; } }
   .presentacion .titles:after {
     position: absolute;
     content: ' ';
@@ -91,7 +99,7 @@
     top: -170%; } }
   .presentacion h1 {
     font-family: "STARWARS";
-    font-size: 150px;
+    font-size: 80px;
     color: #F7BD2A;
     text-align: center;
     margin-top: 80px; }
@@ -101,6 +109,9 @@
     .presentacion p h2 {
       color: #F7BD2A;
       font-size: 100px; }
+
+.navbar-inner, .navbar .btn-navbar {
+  border: 0px; }
 
 .mainfooter {
   background-color: #3B3D3F;
@@ -435,7 +446,7 @@ p, h4, h6, li > a {
       .yoda-part .pasos p strong em {
         color: white; }
 
-/* Programaci├│n */
+/* Programación */
 .programacion {
   padding: 30px 0px;
   height: auto; }
