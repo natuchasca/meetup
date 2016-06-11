@@ -225,7 +225,7 @@
       font-size: 40px !important;
       margin: 0 !important; }
   .que-es .yoda-part .pasos {
-    margin: 10% 10%; }
+    margin: 10% 10% !important; }
 
   /* JEdi zone */
   #maestros-jedi .jedi .jedi-text {
@@ -314,9 +314,12 @@ p, h4, h6, li > a {
 
 /* Que es */
 .que-es {
-  padding: 30px 0px; }
+  padding: 30px 0px;
+  height: 100vh;
+  padding-top: 50px; }
   .que-es h1 {
-    padding-bottom: 2%;
+    padding-bottom: 100px;
+    padding-top: 70px;
     text-align: center; }
   .que-es p {
     font-size: 18px;
@@ -379,7 +382,7 @@ p, h4, h6, li > a {
 /* yoda */
 .yoda-part {
   padding: 30px 0px;
-  background-image: url("../img/star_bg.jpg");
+  background-color: #3B3D3F;
   background-size: cover;
   background-position: center;
   min-height: 370px;
@@ -409,6 +412,8 @@ p, h4, h6, li > a {
     box-shadow: 0px 1px 17px 1px #fcf9fc; }
     .yoda-part .btn-force:hover a {
       color: #FFF; }
+  .yoda-part .yoda-text {
+    margin-top: 130px; }
   .yoda-part .yoda {
     width: 180px;
     height: auto;
@@ -419,23 +424,6 @@ p, h4, h6, li > a {
     margin-bottom: 40px; }
   .yoda-part h1 {
     color: #F7BD2A; }
-  .yoda-part .pasos {
-    margin: 40px auto; }
-    .yoda-part .pasos p {
-      color: white;
-      text-align: justify;
-      font-size: 20px; }
-      .yoda-part .pasos p .fa {
-        margin-right: 20px;
-        font-size: 45px;
-        color: #F7BD2A; }
-      .yoda-part .pasos p strong {
-        color: #F7BD2A;
-        font-size: 25px; }
-      .yoda-part .pasos p strong em {
-        color: white; }
-      .yoda-part .pasos p a {
-        color: #F7BD2A; }
 
 /* Programaci├│n */
 .programacion {
@@ -589,9 +577,39 @@ p, h4, h6, li > a {
   .hashtag .btn-force {
     margin-top: -5px; }
 
+.pasos-bno {
+  margin-bottom: -65px;
+  margin-top: -45px; }
+  .pasos-bno .number {
+    margin-left: -350px;
+    margin-right: 20px;
+    margin-top: 105px;
+    font-size: 38px;
+    color: #F7BD2A; }
+  .pasos-bno .text {
+    margin-top: -65px;
+    margin-left: 150px;
+    color: white;
+    font-size: 20px;
+    width: 80%;
+    text-align: left; }
+    .pasos-bno .text .fa {
+      font-size: 40px;
+      margin-left: 15px;
+      margin-right: 15px; }
+    .pasos-bno .text a {
+      color: #F7BD2A; }
+    .pasos-bno .text strong {
+      color: #F7BD2A; }
+
+.citripio h6 {
+  font-weight: bold; }
+
 /* Style Jedi Masters */
 #maestros-jedi {
   background-color: rgba(0, 0, 0, 0.1);
+  padding-top: 60px;
+  padding-bottom: 60px;
   padding: 30px 0px; }
   #maestros-jedi hr {
     width: 50px;
