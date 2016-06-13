@@ -1,9 +1,5 @@
 @charset "UTF-8";
 @media (max-width: 767px) and (min-width: 285px) {
-  .container {
-    min-width: 250px;
-    max-width: 767px; }
-
   .menu .menu-nav .navbar-brand img {
     position: absolute;
     margin-left: -40px; }
@@ -124,6 +120,10 @@
 
   .collapsing {
     overflow: hidden !important; }
+
+  .navbar-toggle {
+    margin-top: 20px;
+    margin-right: 30px; }
 
   /* JEdi zone */
   #maestros-jedi .jedi .jedi-img {
@@ -473,7 +473,7 @@ p, h4, h6, li > a {
   .programacion p {
     font-size: 16px; }
   .programacion .horario {
-    height: 150px;
+    height: 170px;
     margin-bottom: 20px;
     min-width: 200px;
     background-color: #F2F6F7;
@@ -738,7 +738,8 @@ p, h4, h6, li > a {
   vertical-align: top; }
   .jedi:hover .jedi-img .name-jedi:hover,
   .jedi:hover .jedi-img .name-jedi:after {
-    display: none; }
+    display: none;
+    opacity: 0; }
 
 .jedi:hover .jedi-text {
   z-index: 6;
@@ -755,7 +756,8 @@ p, h4, h6, li > a {
   -ms-transform: translate(0px, 0px) scale(2); }
   .jedi:hover .jedi-text .name-jedi:hover,
   .jedi:hover .jedi-text .name-jedi:after {
-    display: none; }
+    display: none;
+    opacity: 0; }
 
 /* Style Jedi Masters */
 

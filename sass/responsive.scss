@@ -1,9 +1,4 @@
 @media (max-width: 767px) and (min-width: 285px) {
-	.container {
-		min-width: 250px;
-		max-width: 767px;
-	}
-
 	.menu .menu-nav .navbar-brand img {
 		position: absolute;
 		margin-left: -40px;
@@ -185,6 +180,11 @@
     }
     .collapsing {
         overflow: hidden!important;
+    }
+
+    .navbar-toggle {
+    	margin-top: 20px;
+    	margin-right: 30px;
     }
 
 
