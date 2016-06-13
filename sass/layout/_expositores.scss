@@ -129,6 +129,7 @@
   .name-jedi:hover,
   .name-jedi:after {
     display: none;
+    opacity: 0;
   }
 }
 .jedi:hover .jedi-text {
@@ -147,6 +148,7 @@
   .name-jedi:hover,
   .name-jedi:after {
     display: none;
+    opacity: 0;
   }
 }
 /* Style Jedi Masters */ 
