@@ -2,6 +2,7 @@
 	.container {
 		min-width: 250px;
 		max-width: 767px;
+		width: 100%;
 	}
 
 	.menu .menu-nav .navbar-brand img {
@@ -72,13 +73,20 @@
 			
 		}
 
-		.yoda-part {
+	}
+
+	.yoda-part {
 			.pasos {
-				margin: 10% 10% !important;
+				.pasos-bno {
+					.text {
+						.hash {
+							font-size: 80%;
+						}
+					}
+				}
 
 			}
 		}
-	}
 
 	/* JEdi zone */
     
