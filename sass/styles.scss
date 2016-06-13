@@ -12,8 +12,8 @@ p, h4, h6, li>a {
 /* Que es */
 .que-es{
 	@include marginsecciones;
-	height:100vh;
-	padding-top:50px;
+	height: auto;
+	padding-top: 50px;
 	h1{
 	padding-bottom:100px;
 	padding-top:70px;
@@ -103,9 +103,52 @@ p, h4, h6, li>a {
 }
 
 
+/* pasos */
+.pasos {
+	padding-top: 50px;
+	h1 {
+		margin-bottom: 30px;
+	}
+	.pasos-bno {
+		margin-left: 50px;
+	.number {
+		margin-right:20px;
+		margin-top:15px;
+		font-size:38px;
+		color:$yellow;
+		display: inline-block;
+	}
+	.text
+	{
+		color:white;
+		font-size:20px;
+		width:80%;
+		text-align:left;
+		display: inline-block;
+		
+		.fa 
+		{
+			font-size:40px;
+			margin-left:15px;
+			margin-right:15px;
+		}
+		a 
+		{
+			color:$yellow;
+		}
+		strong 
+		{
+			color:$yellow;
+		}
+	}
+}
+}
+
+
+
 /* yoda */
 .yoda-part {
-	@include marginsecciones;
+	padding-bottom: 50px;
 	background-color:$black;
 	background-size: cover;
 	background-position: center;
@@ -113,9 +156,9 @@ p, h4, h6, li>a {
 	height: 100%;
 	
 	@include followboton;
-	.yoda-text
-	{
-	margin-top:130px;
+	.yoda-text {
+		text-align: center;
+		margin-top:130px;
     }
 	.yoda {
 		width: 180px;
@@ -280,51 +323,8 @@ p, h4, h6, li>a {
 	}
 }
 
-.pasos-bno
-{
-	margin-bottom:-65px;
-	margin-top:-45px;
-	.number{
-		margin-left:-350px;
-		margin-right:20px;
-		margin-top:105px;
-		font-size:38px;
-		color:$yellow;
-	}
-	.text
-	{
-		margin-top:-65px;
-		margin-left:150px;
-		color:white;
-		font-size:20px;
-		width:80%;
-		text-align:left;
-		
-		.fa 
-		{
-			font-size:40px;
-			margin-left:15px;
-			margin-right:15px;
-		}
-		a 
-		{
-			color:$yellow;
-		}
-		strong 
-		{
-			color:$yellow;
-		}
-	}
-}
 
-.citripio
-{
-	h6
-	{
-		font-weight:bold;
-	}
-	
-}
+
 
 
 

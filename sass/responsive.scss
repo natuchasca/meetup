@@ -1,19 +1,21 @@
-@media (max-width: 767px) and (min-width: 200px) {
+@media (max-width: 767px) and (min-width: 285px) {
 	.container {
 		min-width: 250px;
 		max-width: 767px;
 	}
 	.yoda-part
 	{
-		margin-top:300px;
+		
 		.blah
     {
     	
     	.pasos-bno
     	{
+    		margin-bottom:30px;
     		.number
     		{
-    			margin-left:-280px;
+    			margin-left:-150px;
+
     		}
     		.text
     		{
@@ -26,9 +28,8 @@
 	
 
 	.menu .menu-nav .navbar-brand img {
-		height: 250%;
-		width: auto;
-		margin-left: -20px;
+		position: absolute;
+		margin-left: -40px;
 	}
 
 	.navbar-nav>li {
@@ -38,6 +39,11 @@
     .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    .navbar-toggle {
+    	margin-top: 20px;
+    	margin-right: -3px;
     }
 
 
@@ -93,8 +99,11 @@
 			
 		}
 
-		
+
 	}
+
+
+
 
 	/* JEdi zone */
     
