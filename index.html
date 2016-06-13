@@ -479,11 +479,19 @@
 	<!-- SmootScrooling -->
 	<script src="lib/smoothscrolling.jquery.js"></script>
 	<script>
+	$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
+	</script>
+	<script>
 	  $("a.scroller").smoothscrolling(
 	  { 
     offsetTop: 65 // cantidad de pixeles que tiene el elemento flotante
   });
 	</script>
+
 	<script type="text/javascript" src="lib/smoothscroll.js"></script>
 	
 </body>
