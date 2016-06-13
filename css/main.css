@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* Propiedes imagen background fixed */
 /* Margenes de secciones */
-/* L├¡nea */
-/* Bot├│n */
+/* Línea */
+/* Botón */
 /*STILOS HEADER lissette*/
 .menu .navbar-toggle, .menu .nav {
   background-color: #3B3D3F; }
@@ -435,7 +435,7 @@ p, h4, h6, li > a {
       .yoda-part .pasos p strong em {
         color: white; }
 
-/* Programaci├│n */
+/* Programación */
 .programacion {
   padding: 30px 0px;
   height: auto; }
@@ -622,6 +622,8 @@ p, h4, h6, li > a {
     font-family: helvetica;
     font-weight: bold;
     margin-bottom: -5px; }
+  .name-jedi:hover {
+    color: #E5E5E5; }
 
 .name-jedi:hover,
 .name-jedi:after {
@@ -733,5 +735,7 @@ p, h4, h6, li > a {
     display: none; }
 
 /* Style Jedi Masters */
+.jedi:hover .name-jedi {
+  opacity: 0; }
 
 /*# sourceMappingURL=main.css.map */
