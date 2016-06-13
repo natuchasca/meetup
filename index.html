@@ -72,7 +72,7 @@
 					<h4>Av. Puma 1180, Recoleta</h4>
 				</div>
 				<div class="col-md-6"> 	
-					<p> <strong>MeetTheFront</strong> es un MeetUp de <a href="http://laboratoria.cl/"><b>Laboratoria</b></a>, donde se abordarán temas del mundo <em>FRONTEND</em> además se presentarán charlas relacionadas al ambiente digital, profesional y género donde le invitarán a tomar otras perspectivas del cosmo informático. También tendremos testimonios de alumnas y ex-alumnas de Laboratoria.
+					<p> <strong>MeetTheFront</strong>, primer MeetUp de <a href="http://laboratoria.cl/"><b>Laboratoria Chile</b></a>, donde se abordarán temas del mundo <em>FRONTEND</em>, además se presentarán charlas relacionadas al ambiente digital, profesional y género donde le invitarán a tomar otras perspectivas del cosmo informático. También tendremos testimonios de alumnas y ex-alumnas de Laboratoria.
 					<br>
 					<br>
 					Te invitamos a mantener una grata conversación y <b>compartir unas cervezas y deliciosas pizzas</b> gracias a nuestros auspiciadores.
@@ -129,7 +129,7 @@
 							<div class="number">
 								<p>&#60;3&#62;</p>
 							</div>
-							<div class="text">
+							<div class="text pt">
 								<p>Participa durante las charlas en <i class="fa fa-twitter" aria-hidden="true"></i> <strong class="hash">
 								#MayTheFrontbeWithYou</strong>
 								</p>
@@ -139,7 +139,7 @@
 							<div class="number">
 								<p>&#60;4&#62;</p>
 							</div>
-							<div class="text">
+							<div class="text pt">
 								<p>Quédate a <i class="fa fa-comments" aria-hidden="true"></i> con los demás asistentes. <strong>Disfrutando de cervezas y pizzas </strong></p>
 							</div>
 						</div>
@@ -472,11 +472,19 @@
 	<!-- SmootScrooling -->
 	<script src="lib/smoothscrolling.jquery.js"></script>
 	<script>
+	$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
+	</script>
+	<script>
 	  $("a.scroller").smoothscrolling(
 	  { 
     offsetTop: 65 // cantidad de pixeles que tiene el elemento flotante
   });
 	</script>
+
 	<script type="text/javascript" src="lib/smoothscroll.js"></script>
 	
 </body>

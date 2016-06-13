@@ -76,6 +76,11 @@
 	.yoda-part {
 			.pasos {
 				.pasos-bno {
+					height: auto;
+					.number {
+						display: inline-block;
+						margin-bottom: -50px;
+					}
 					.text {
 						.hash {
 							font-size: 80%;

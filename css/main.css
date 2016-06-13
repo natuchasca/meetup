@@ -51,8 +51,13 @@
       font-size: 40px !important;
       margin: 0 !important; }
 
-  .yoda-part .pasos .pasos-bno .text .hash {
-    font-size: 80%; }
+  .yoda-part .pasos .pasos-bno {
+    height: auto; }
+    .yoda-part .pasos .pasos-bno .number {
+      display: inline-block;
+      margin-bottom: -50px; }
+    .yoda-part .pasos .pasos-bno .text .hash {
+      font-size: 80%; }
 
   /* JEdi zone */
   #maestros-jedi .jedi .jedi-text {
@@ -387,11 +392,13 @@ p, h4, h6, li > a {
 
 /* pasos */
 .pasos {
-  padding-top: 50px; }
+  padding-top: 40px; }
   .pasos h1 {
     margin-bottom: 30px; }
   .pasos .pasos-bno {
-    margin-left: 50px; }
+    margin-left: 50px;
+    min-height: 100px;
+    height: 1005; }
     .pasos .pasos-bno .number {
       margin-right: 20px;
       margin-top: 15px;
@@ -403,7 +410,11 @@ p, h4, h6, li > a {
       font-size: 20px;
       width: 80%;
       text-align: left;
-      display: inline-block; }
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 12px; }
+      .pasos .pasos-bno .text.pt {
+        padding-top: 2px; }
       .pasos .pasos-bno .text .fa {
         font-size: 40px;
         margin-left: 15px;
@@ -417,8 +428,6 @@ p, h4, h6, li > a {
 .yoda-part {
   padding-bottom: 50px;
   background-color: #3B3D3F;
-  background-size: cover;
-  background-position: center;
   min-height: 370px;
   height: 100%; }
   .yoda-part .btn-force {
@@ -448,7 +457,7 @@ p, h4, h6, li > a {
       color: #FFF; }
   .yoda-part .yoda-text {
     text-align: center;
-    margin-top: 130px; }
+    margin-top: 30px; }
   .yoda-part .yoda {
     width: 180px;
     height: auto;
