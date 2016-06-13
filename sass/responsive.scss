@@ -3,6 +3,27 @@
 		min-width: 250px;
 		max-width: 767px;
 	}
+	.yoda-part
+	{
+		margin-top:300px;
+		.blah
+    {
+    	
+    	.pasos-bno
+    	{
+    		.number
+    		{
+    			margin-left:-280px;
+    		}
+    		.text
+    		{
+    			margin-left:90px;
+    			font-size:18px;
+    		}
+    	}
+    }
+	}
+	
 
 	.menu .menu-nav .navbar-brand img {
 		height: 250%;
@@ -57,7 +78,7 @@
 		.suma {
 			width: 90%;
 			.big-icon {
-				width: 30px;
+				width: 50px;
 				height: auto;
 				margin: 0;
 			}
@@ -72,12 +93,7 @@
 			
 		}
 
-		.yoda-part {
-			.pasos {
-				margin: 10% 10% !important;
-
-			}
-		}
+		
 	}
 
 	/* JEdi zone */
@@ -204,6 +220,7 @@
     		}
     	}
     }
+
 
 }
 
