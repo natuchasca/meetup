@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media (max-width: 767px) and (min-width: 285px) {
   .menu .menu-nav .navbar-brand img {
     position: absolute;
@@ -374,8 +375,8 @@ p, h4, h6, li > a {
     font-size: 30px;
     display: block; }
     .que-es .suma img {
-      width: 60px;
-      height: 60px;
+      width: 73px;
+      height: 73px;
       margin-left: 25px;
       margin-right: 20px;
       margin-bottom: 10px;
@@ -642,6 +643,9 @@ p, h4, h6, li > a {
   .hashtag .btn-force {
     margin-top: -5px; }
 
+.text_right {
+  text-align: justify; }
+
 /* Style Jedi Masters */
 #maestros-jedi {
   background-color: rgba(0, 0, 0, 0.1);
@@ -794,5 +798,8 @@ p, h4, h6, li > a {
 /* Style Jedi Masters */
 .jedi:hover .name-jedi {
   opacity: 0; }
+
+.master-jedi {
+  font-size: 8px; }
 
 /*# sourceMappingURL=main.css.map */
