@@ -18,7 +18,7 @@
 
 /* Margenes de secciones */
 @mixin marginsecciones {
-	padding: 30px 0px;
+	padding: 40px 0px;
 }
 
 /* Línea */
@@ -31,6 +31,41 @@
 		margin-bottom: 30px;
 	}
 }
+
+
+/* Botón */
+@mixin followboton {
+	.btn-force {
+		width: 220px;
+		height: 50px;
+		background-color:$white;
+		color:$yellow;
+		border-radius:4px;
+		font-weight:bold;
+		border: 3px solid $yellow;
+		margin: 10px auto;
+		font-size: 20px;
+		text-align: center;
+		padding-top: 8px;
+		a {
+			color: $yellow;
+		}
+	}
+	.btn-force:hover {
+		color:$white;
+		background-color:$yellow;
+		border-radius:4px;
+		border: 3px solid $yellow;
+		font-size: 20px;
+		-webkit-box-shadow: 0px 1px 17px 1px rgba(252,249,252,1);
+		-moz-box-shadow: 0px 1px 17px 1px rgba(252,249,252,1);
+		box-shadow: 0px 1px 17px 1px rgba(252,249,252,1);
+		a {
+			color: $white;
+		}
+	}
+}
+
 
 
 @mixin iconos {
@@ -56,8 +91,6 @@
 	padding: 10px;
 	color: $white;
 	margin-left: -40px;
-	width: 150px;
-	height: 50px;
 }
 
 @mixin texto5 {

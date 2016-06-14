@@ -12,8 +12,11 @@ p, h4, h6, li>a {
 /* Que es */
 .que-es{
 	@include marginsecciones;
+	height: auto;
+	padding-top: 50px;
 	h1{
-	padding-bottom: 2%;
+	padding-bottom:100px;
+	padding-top:70px;
 	text-align: center;
 	}
 	p{
@@ -26,10 +29,15 @@ p, h4, h6, li>a {
 		margin-left:300px;
 	}
 	}
-	img{
+	.meet{
 	width:80%;
+	margin: 20px auto;
+	height:auto;
 	}
-	
+	a {
+		color: $black;
+		text-decoration: none;
+	}
 	h5
 	{
 		
@@ -38,12 +46,46 @@ p, h4, h6, li>a {
 		color:$black;
 		
 	}
+
+
+	.suma {
+		max-width: 600px;
+		max-height: 110px;
+		color:#3D3B3F;
+		font-weight: bold;
+		margin: 20px auto;
+		padding: 10px;
+		font-size: 30px;
+		display: block;
+		
+		img 
+		{
+			width:60px;
+			height:60px;
+			margin-left:25px;
+			margin-right:20px;
+			margin-bottom:10px;
+			margin-top: 10px;
+			
+		}
+		.fa 
+		{
+			font-size:60px;
+			color:#3D3B3F;
+			margin-left:20px;
+			margin-right:30px;
+			vertical-align: middle;
+			&.fa-code {
+				font-size: 70px;
+			}
+		}
+	}
 	.boton-amarillo{
 	background-color:$yellow;
 	width: 180px;
 	border-radius: 5px;
 	text-align:center;
-	margin: 40px auto 50px 0px;
+	margin: 10px auto 50px 0px;
 	border: none;
 	padding-bottom: 8px;
 		.logo-1 {
@@ -61,6 +103,92 @@ p, h4, h6, li>a {
 }
 
 
+/* pasos */
+
+.steps {
+	.steps-box {
+		background-color:transparent;
+		min-height:110px;
+		height: 100%;
+		margin:20px 25%;
+		.numb {
+			background-color:transparent;
+			width:80px;
+			height:90px;
+			color:$yellow;
+			font-size:35px;
+			padding: 3px 10px;
+			margin:10px 10px;
+			//border:1px solid $yellow;
+			-webkit-box-shadow: 3px 3px 3px 3px #F2F2F2;
+			box-shadow: 2px 2px 2px 2px #F2F2F2;
+			.icon {
+			  position:relative;
+			  bottom:15px;
+			  font-size:32px;
+			}
+		}
+		.text {
+			background-color:transparent;
+			border:1px solid white;
+			min-height:90px;
+			height: 100%;
+			width:80%;
+			margin-left:100px;
+			margin-top:-100px;
+			padding-top:15px;
+			padding-left:40px;
+			padding-right:10px;
+			font-size:23px;
+			text-align:left;
+			color:$yellow;
+			a {
+				color:white;
+				font-weight:bold;
+				text-decoration:underline;
+			}
+		}
+	}
+}
+
+
+
+/* yoda */
+.yoda-part {
+	@include marginsecciones;
+	padding-bottom: 50px;
+	background-color: $black;
+	min-height: 370px;
+	height: 100%;
+	@include followboton;
+	.yoda-text {
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+    }
+
+	.yoda {
+		width: 180px;
+		height: auto;
+		margin: 0 auto;
+	}
+	cite {
+		font-family: $tipo_norm;
+		color: $yellow;
+		margin-bottom: 40px;
+	}
+		h1
+		{
+			color:$yellow;
+		}
+
+		
+	
+}
+
+	
+
+
 /* Programación */
 .programacion {
 	@include marginsecciones;
@@ -70,7 +198,7 @@ p, h4, h6, li>a {
 	    font-size: 16px;
 	  }
 	.horario {
-		height: 150px;
+		height: 170px;
 		margin-bottom: 20px;
 		min-width: 200px;
 		background-color: $grey;
@@ -86,6 +214,7 @@ p, h4, h6, li>a {
 			padding: 10px;
 			margin-right: 20px;
 			text-align: left;
+			margin-bottom: 10px;
 		}
 	}
 	.actividad {
@@ -98,6 +227,7 @@ p, h4, h6, li>a {
 		}
 		p {
 			font-size: 14px;
+			margin-left: 105px;
 		}
 	}
 }
@@ -107,29 +237,50 @@ p, h4, h6, li>a {
 .colaboradores {
 	@include marginsecciones;
 	@include linea;
-	  p {
+	min-height: 350px;
+	height: 100%;
+	p {
 	    font-size: 16px;
-	  }
+	}
+	a {
+		text-decoration: none;
+	}
 	img {
 		height: auto;
-		margin: 0px 0px 20px 0px;
+		margin: 10px 0px 30px 0px;
 		display: inline;
 		&.laboratoria {
-			width: 50%;
-			margin-top: 10px;
+			width: 80%;
+			margin-top: 20px;
+			&:hover {
+				width: 83%;
+			}
 		}
 		&.blanco {
 			width: 40%;
+			&:hover {
+				width: 43%;
+			}
 		}
 		&.fabrica {
 			width: 40%;
+			margin-right: 20px;
+			&:hover {
+				width: 43%;
+			}
 		}
 		&.gitlab {
 			width: 25%;
-			margin-right: 20px;
+			margin-right: 25px;
+			&:hover {
+				width: 28%;
+			}
 		}
 		&.sol {
 			width: 30%;
+			&:hover {
+				width: 33%;
+			}
 		}
 	}
 }
@@ -140,6 +291,7 @@ p, h4, h6, li>a {
 	background-image: url("../img/star_bg.jpg");
 	padding: 50px 0px;
 	max-height: 250px;
+	height: 100%;
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
 	animation: animatedBackground 10s linear infinite;
@@ -150,7 +302,7 @@ p, h4, h6, li>a {
 	a:hover {
 		text-decoration: none;
 	}
-	h1, {
+	h1 {
 		font-family:"STARWARS";
 		color: $yellow;
 		font-size: 50px;
@@ -172,35 +324,14 @@ p, h4, h6, li>a {
 		from { background-position: 0 0; }
 		to { background-position: 100% 0; }
 	}
+	@include followboton;
 	.btn-force {
-		width: 220px;
-		height: 50px;
-		background-color:$white;
-		color:$yellow;
-		border-radius:4px;
-		font-weight:bold;
-		border: 3px solid $yellow;
 		margin-top: -5px;
-		font-size: 20px;
-		text-align: center;
-		a {
-			color: $yellow;
-		}
-	}
-	.btn-force:hover {
-		color:$white;
-		background-color:$yellow;
-		border-radius:4px;
-		border: 3px solid $yellow;
-		font-size: 20px;
-		-webkit-box-shadow: 0px 1px 17px 1px rgba(252,249,252,1);
-		-moz-box-shadow: 0px 1px 17px 1px rgba(252,249,252,1);
-		box-shadow: 0px 1px 17px 1px rgba(252,249,252,1);
-		a {
-			color: $white;
-		}
 	}
 }
+
+
+
 
 
 

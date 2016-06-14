@@ -1,0 +1,777 @@
+@media (max-width: 767px) and (min-width: 285px) {
+  .menu .menu-nav .navbar-brand img {
+    position: absolute;
+    margin-left: -40px; }
+
+  .navbar-nav > li {
+    float: none;
+    padding-bottom: 10px; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  .navbar-toggle {
+    margin-top: 20px;
+    margin-right: -3px; }
+
+  .navbar-default .navbar-collapse {
+    border-color: none;
+    border-top: none;
+    border-style: none; }
+
+  .presentacion {
+    width: 100%; }
+    .presentacion .title {
+      width: 200px;
+      height: auto;
+      transform-origin: 50% 100%;
+      transform: perspective(50px) rotateX(25deg); }
+      .presentacion .title p, .presentacion .title h1 {
+        width: 50%; }
+
+  .que-es .meet {
+    margin: 10% auto; }
+  .que-es .meets {
+    margin-bottom: 40px;
+    width: 100%; }
+  .que-es p {
+    margin: 10% 10%; }
+  .que-es .suma {
+    width: 90%; }
+    .que-es .suma .big-icon {
+      width: 30px;
+      height: auto;
+      margin: 0; }
+    .que-es .suma span {
+      font-size: 20px !important;
+      margin: 0 !important; }
+    .que-es .suma .fa {
+      font-size: 40px !important;
+      margin: 0 !important; }
+
+  .yoda-part .pasos .pasos-bno {
+    height: auto; }
+    .yoda-part .pasos .pasos-bno .number {
+      display: inline-block;
+      margin-bottom: -50px; }
+    .yoda-part .pasos .pasos-bno .text .hash {
+      font-size: 80%; }
+
+  /* JEdi zone */
+  #maestros-jedi .jedi .jedi-text {
+    bottom: 10%; }
+
+  #chrono .horario {
+    height: auto;
+    overflow: auto; }
+  #chrono .actividad p {
+    margin-left: 0px;
+    display: inline-block; }
+
+  .hashtag .hashtag-text h1 {
+    font-size: 120%; }
+  .hashtag .hashtag-text button {
+    width: auto;
+    height: auto;
+    font-size: 100%;
+    overflow: auto; }
+  .hashtag .hashtag-text button:hover {
+    width: auto;
+    height: auto;
+    font-size: 100%;
+    overflow: auto; }
+
+  #footerWrapper .footerwidget {
+    padding-right: 20px; }
+  #footerWrapper iframe {
+    width: 100%;
+    height: auto; } }
+/* Responsive burger, breakpoint edit */
+@media (max-width: 1130px) and (min-width: 768px) {
+  .navbar-header {
+    float: none; }
+
+  .navbar-toggle {
+    display: block; }
+
+  .navbar-collapse {
+    border-top: none;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+  .navbar-collapse.collapse {
+    display: none !important; }
+
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px; }
+
+  .navbar-nav > li {
+    float: none;
+    padding-bottom: 10px; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  .navbar-text {
+    float: none;
+    margin: 15px 0; }
+
+  /* since 3.1.0 */
+  .navbar-collapse.collapse.in {
+    display: block !important; }
+
+  .collapsing {
+    overflow: hidden !important; }
+
+  .navbar-toggle {
+    margin-top: 20px;
+    margin-right: 30px; }
+
+  /* JEdi zone */
+  #maestros-jedi .jedi .jedi-img {
+    margin-bottom: 10%; }
+  #maestros-jedi .jedi .jedi-text {
+    bottom: 12%; }
+
+  #chrono .horario {
+    height: auto;
+    overflow: auto; }
+  #chrono .actividad p {
+    margin-left: 0px;
+    float: left; } }
+/* Propiedes imagen background fixed */
+/* Margenes de secciones */
+/* Línea */
+/* Botón */
+/*STILOS HEADER lissette*/
+.menu .navbar-toggle, .menu .nav {
+  background-color: #3B3D3F; }
+.menu .navbar {
+  margin-bottom: 0px;
+  width: 100%;
+  position: fixed; }
+.menu .menu-nav {
+  background-color: #3B3D3F;
+  height: 70px;
+  border: none;
+  z-index: 1;
+  border-radius: 0px; }
+  .menu .menu-nav .navbar-brand {
+    margin-top: -30px;
+    margin-left: 20px; }
+    .menu .menu-nav .navbar-brand img {
+      height: 60px;
+      width: auto;
+      margin-top: 13px; }
+  .menu .menu-nav ul {
+    margin-right: 30px; }
+  .menu .menu-nav ul li {
+    margin-top: 15px;
+    font-size: 15px;
+    margin: 10px 10px 0px 10px; }
+    .menu .menu-nav ul li a {
+      color: #FFF; }
+    .menu .menu-nav ul li a.active {
+      color: #F7BD2A; }
+  .menu .menu-nav ul li:last-child > a {
+    background-color: #FFF;
+    color: #F7BD2A;
+    border-radius: 4px;
+    font-weight: bold;
+    border: 3px solid #F7BD2A;
+    margin-top: -5px; }
+  .menu .menu-nav ul li a:hover {
+    background-color: #FFF;
+    color: #F7BD2A;
+    border-radius: 4px;
+    font-weight: bold; }
+
+.presentacion {
+  background-image: url("../img/star_bg.jpg"); }
+  .presentacion body {
+    margin: 0; }
+  .presentacion .fondo {
+    background-size: cover; }
+  .presentacion .fondo-fixed {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .presentacion .modulo-alto {
+    min-height: 100vh; }
+  .presentacion .tittle {
+    position: absolute;
+    width: 18em;
+    height: 50em;
+    bottom: 0%;
+    left: 50%;
+    margin-left: -9em;
+    font-size: 350%;
+    font-weight: bold;
+    text-align: justify;
+    overflow: hidden;
+    transform-origin: 50% 100%;
+    transform: perspective(300px) rotateX(25deg); }
+  .presentacion .titles:after {
+    position: absolute;
+    content: ' ';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 60%;
+    background-image: linear-gradient(top, black 0%, transparent 100%);
+    pointer-events: none; }
+  .presentacion #content {
+    position: absolute;
+    top: 100%;
+    animation: scroll 100s linear 1s infinite; }
+@keyframes scroll {
+  0% {
+    top: 100%; }
+  100% {
+    top: -170%; } }
+  .presentacion h1 {
+    font-family: "STARWARS";
+    font-size: 150px;
+    color: #F7BD2A;
+    text-align: center;
+    margin-top: 80px; }
+  .presentacion p {
+    color: #F7BD2A;
+    font-family: "STARWARS"; }
+    .presentacion p h2 {
+      color: #F7BD2A;
+      font-size: 100px; }
+
+.mainfooter {
+  background-color: #3B3D3F;
+  padding: 40px 0px; }
+
+.footerwidget {
+  padding: 0px 20px 0px 20px;
+  padding-right: 97px; }
+  .footerwidget p {
+    color: #FFF;
+    font-family: helvetica;
+    padding-top: 29px; }
+  .footerwidget a {
+    color: #F7BD2A; }
+
+.foot p {
+  color: #FFF;
+  font-family: helvetica;
+  padding-top: 20px; }
+.foot iframe {
+  padding-top: 10px; }
+
+.foot h3 {
+  font-family: "STARWARS";
+  color: #FFF;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: -10px; }
+
+.foot2 h3 {
+  font-family: "STARWARS";
+  color: #FFF;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 0px; }
+.foot2 .icons {
+  font-size: 30px;
+  color: #FFF;
+  margin-right: 10px;
+  z-index: 1; }
+.foot2 .socialNetwork li {
+  width: 220px;
+  height: 50px;
+  list-style: none;
+  padding: 10px;
+  color: #FFF;
+  margin-left: -40px; }
+  .foot2 .socialNetwork li a {
+    display: block;
+    color: white;
+    width: 120px;
+    height: 30px; }
+  .foot2 .socialNetwork li span {
+    vertical-align: super; }
+.foot2 li:hover,
+.foot2 i:hover {
+  color: #F7BD2A; }
+.foot2 li > a:hover {
+  color: #F7BD2A;
+  text-decoration: none; }
+
+.citripio {
+  text-align: center;
+  font-family: helvetica;
+  color: #FFF;
+  margin-top: 20px; }
+  .citripio img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: -10px; }
+  .citripio h6 {
+    font-weight: bold; }
+
+h1, h2 {
+  font-family: "STARWARS"; }
+
+p, h4, h6, li > a {
+  font-family: helvetica; }
+
+/* Que es */
+.que-es {
+  padding: 40px 0px;
+  height: auto;
+  padding-top: 50px; }
+  .que-es h1 {
+    padding-bottom: 100px;
+    padding-top: 70px;
+    text-align: center; }
+  .que-es p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 2%; }
+    .que-es p h3 {
+      margin-left: 300px; }
+  .que-es .meet {
+    width: 80%;
+    margin: 20px auto;
+    height: auto; }
+  .que-es a {
+    color: #3B3D3F;
+    text-decoration: none; }
+  .que-es h5 {
+    font-size: 11px;
+    margin-top: -30px;
+    color: #3B3D3F; }
+  .que-es .suma {
+    max-width: 600px;
+    max-height: 110px;
+    color: #3D3B3F;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 30px;
+    display: block; }
+    .que-es .suma img {
+      width: 60px;
+      height: 60px;
+      margin-left: 25px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      margin-top: 10px; }
+    .que-es .suma .fa {
+      font-size: 60px;
+      color: #3D3B3F;
+      margin-left: 20px;
+      margin-right: 30px;
+      vertical-align: middle; }
+      .que-es .suma .fa.fa-code {
+        font-size: 70px; }
+  .que-es .boton-amarillo {
+    background-color: #F7BD2A;
+    width: 180px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto 50px 0px;
+    border: none;
+    padding-bottom: 8px; }
+    .que-es .boton-amarillo .logo-1 {
+      width: 85%;
+      height: auto; }
+  .que-es .boton-amarillo:hover {
+    -webkit-box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4); }
+
+/* pasos */
+.pasos {
+  padding-top: 40px; }
+  .pasos h1 {
+    margin-bottom: 30px; }
+  .pasos .pasos-bno {
+    margin-left: 50px;
+    min-height: 100px;
+    height: 1005; }
+    .pasos .pasos-bno .number {
+      margin-right: 20px;
+      margin-top: 15px;
+      font-size: 38px;
+      color: #F7BD2A;
+      display: inline-block; }
+    .pasos .pasos-bno .text {
+      color: white;
+      font-size: 20px;
+      width: 80%;
+      text-align: left;
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 12px; }
+      .pasos .pasos-bno .text.pt {
+        padding-top: 2px; }
+      .pasos .pasos-bno .text .fa {
+        font-size: 40px;
+        margin-left: 15px;
+        margin-right: 15px; }
+      .pasos .pasos-bno .text a {
+        color: #F7BD2A; }
+      .pasos .pasos-bno .text strong {
+        color: #F7BD2A; }
+
+/* yoda */
+.yoda-part {
+  padding-bottom: 50px;
+  background-color: #3B3D3F;
+  min-height: 370px;
+  height: 100%; }
+  .yoda-part .btn-force {
+    width: 220px;
+    height: 50px;
+    background-color: #FFF;
+    color: #F7BD2A;
+    border-radius: 4px;
+    font-weight: bold;
+    border: 3px solid #F7BD2A;
+    margin: 10px auto;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8px; }
+    .yoda-part .btn-force a {
+      color: #F7BD2A; }
+  .yoda-part .btn-force:hover {
+    color: #FFF;
+    background-color: #F7BD2A;
+    border-radius: 4px;
+    border: 3px solid #F7BD2A;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 1px 17px 1px #fcf9fc;
+    -moz-box-shadow: 0px 1px 17px 1px #fcf9fc;
+    box-shadow: 0px 1px 17px 1px #fcf9fc; }
+    .yoda-part .btn-force:hover a {
+      color: #FFF; }
+  .yoda-part .yoda-text {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .yoda-part .yoda {
+    width: 180px;
+    height: auto;
+    margin: 0 auto; }
+  .yoda-part cite {
+    font-family: helvetica;
+    color: #F7BD2A;
+    margin-bottom: 40px; }
+  .yoda-part h1 {
+    color: #F7BD2A; }
+
+/* Programación */
+.programacion {
+  padding: 40px 0px;
+  height: auto; }
+  .programacion hr {
+    width: 50px;
+    background-color: #F7BD2A;
+    border: 1px solid #F7BD2A;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .programacion p {
+    font-size: 16px; }
+  .programacion .horario {
+    height: 170px;
+    margin-bottom: 20px;
+    min-width: 200px;
+    background-color: #F2F6F7;
+    padding: 12px;
+    border: 1px solid #F7BD2A; }
+    .programacion .horario .box-hora {
+      width: 85px;
+      height: 85px;
+      background-color: #F7BD2A;
+      float: left;
+      color: white;
+      font-size: 25px;
+      padding: 10px;
+      margin-right: 20px;
+      text-align: left;
+      margin-bottom: 10px; }
+  .programacion .actividad {
+    margin-top: -5px; }
+    .programacion .actividad h5 {
+      margin-bottom: -5px; }
+    .programacion .actividad h4 {
+      font-weight: bold; }
+    .programacion .actividad p {
+      font-size: 14px;
+      margin-left: 105px; }
+
+/* Colaboradores */
+.colaboradores {
+  padding: 40px 0px;
+  min-height: 350px;
+  height: 100%; }
+  .colaboradores hr {
+    width: 50px;
+    background-color: #F7BD2A;
+    border: 1px solid #F7BD2A;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .colaboradores p {
+    font-size: 16px; }
+  .colaboradores a {
+    text-decoration: none; }
+  .colaboradores img {
+    height: auto;
+    margin: 10px 0px 30px 0px;
+    display: inline; }
+    .colaboradores img.laboratoria {
+      width: 80%;
+      margin-top: 20px; }
+      .colaboradores img.laboratoria:hover {
+        width: 83%; }
+    .colaboradores img.blanco {
+      width: 40%; }
+      .colaboradores img.blanco:hover {
+        width: 43%; }
+    .colaboradores img.fabrica {
+      width: 40%;
+      margin-right: 20px; }
+      .colaboradores img.fabrica:hover {
+        width: 43%; }
+    .colaboradores img.gitlab {
+      width: 25%;
+      margin-right: 25px; }
+      .colaboradores img.gitlab:hover {
+        width: 28%; }
+    .colaboradores img.sol {
+      width: 30%; }
+      .colaboradores img.sol:hover {
+        width: 33%; }
+
+/* Hashtag */
+.hashtag {
+  padding: 40px 0px;
+  background-image: url("../img/star_bg.jpg");
+  padding: 50px 0px;
+  max-height: 250px;
+  height: 100%;
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animatedBackground 10s linear infinite;
+  -ms-animation: animatedBackground 10s linear infinite;
+  -moz-animation: animatedBackground 10s linear infinite;
+  -webkit-animation: animatedBackground 10s linear infinite;
+  vertical-align: middle; }
+  .hashtag a:hover {
+    text-decoration: none; }
+  .hashtag h1 {
+    font-family: "STARWARS";
+    color: #F7BD2A;
+    font-size: 50px;
+    margin-bottom: 30px; }
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 100% 0; } }
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 100% 0; } }
+@-ms-keyframes animatedBackground {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 100% 0; } }
+@-moz-keyframes animatedBackground {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 100% 0; } }
+  .hashtag .btn-force {
+    width: 220px;
+    height: 50px;
+    background-color: #FFF;
+    color: #F7BD2A;
+    border-radius: 4px;
+    font-weight: bold;
+    border: 3px solid #F7BD2A;
+    margin: 10px auto;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8px; }
+    .hashtag .btn-force a {
+      color: #F7BD2A; }
+  .hashtag .btn-force:hover {
+    color: #FFF;
+    background-color: #F7BD2A;
+    border-radius: 4px;
+    border: 3px solid #F7BD2A;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 1px 17px 1px #fcf9fc;
+    -moz-box-shadow: 0px 1px 17px 1px #fcf9fc;
+    box-shadow: 0px 1px 17px 1px #fcf9fc; }
+    .hashtag .btn-force:hover a {
+      color: #FFF; }
+  .hashtag .btn-force {
+    margin-top: -5px; }
+
+/* Style Jedi Masters */
+#maestros-jedi {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 40px 0px; }
+  #maestros-jedi hr {
+    width: 50px;
+    background-color: #F7BD2A;
+    border: 1px solid #F7BD2A;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  #maestros-jedi p {
+    font-size: 16px; }
+  #maestros-jedi .titlejedi {
+    text-align: center;
+    font-family: "STARWARS"; }
+  #maestros-jedi .jedi-text h5 {
+    font-family: "STARWARS";
+    margin-bottom: -10px; }
+  #maestros-jedi .jedi-text h6 {
+    margin-bottom: 5px; }
+
+.name-jedi {
+  width: 100%;
+  padding-top: 300px;
+  color: #FFF;
+  font-size: 25px;
+  margin-bottom: 1%;
+  position: absolute;
+  display: block;
+  bottom: 40px;
+  text-align: center; }
+  .name-jedi h5 {
+    font-family: helvetica;
+    font-weight: bold;
+    margin-bottom: -5px; }
+  .name-jedi:hover {
+    color: #E5E5E5; }
+
+.name-jedi:hover,
+.name-jedi:after {
+  display: none;
+  opacity: 0; }
+
+.red-icon {
+  margin: 0 2%;
+  color: #3B3D3F;
+  margin-bottom: 20px; }
+  .red-icon:hover {
+    color: #F7BD2A;
+    text-decoration: none; }
+
+.jedi {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  padding: 0px; }
+
+.jedi .jedi-img {
+  display: block;
+  vertical-align: top;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px #ccc;
+  margin-bottom: 8%;
+  -webkit-transform: 0px 0px 1;
+  -moz-transform: 0px 0px 1;
+  -o-transform: 0px 0px 1;
+  -ms-transform: 0px 0px 1;
+  transform: 0px 0px 1;
+  transform: translate(0px, 0px) scale(1);
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out; }
+
+.jedi .jedi-text {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: 0px 0px 1;
+  -moz-transform: 0px 0px 1;
+  -o-transform: 0px 0px 1;
+  -ms-transform: 0px 0px 1;
+  transform: 0px 0px 1;
+  transform: translate(0px, 0px) scale(1);
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out; }
+
+.jedi:hover .jedi-img {
+  -webkit-transform: 0px -30px 0.5;
+  -moz-transform: 0px -30px 0.5;
+  -o-transform: 0px -30px 0.5;
+  -ms-transform: 0px -30px 0.5;
+  transform: 0px -30px 0.5;
+  transform: translate(0px, -30px) scale(0.5);
+  -webkit-transform: translate(0px, -30px) scale(0.5);
+  -moz-transform: translate(0px, -30px) scale(0.5);
+  -o-transform: translate(0px, -30px) scale(0.5);
+  -ms-transform: translate(0px, -30px) scale(0.5);
+  border-radius: 50%;
+  vertical-align: top; }
+  .jedi:hover .jedi-img .name-jedi:hover,
+  .jedi:hover .jedi-img .name-jedi:after {
+    display: none;
+    opacity: 0; }
+
+.jedi:hover .jedi-text {
+  z-index: 6;
+  color: #3B3D3F;
+  -webkit-transform: 0px 0px 2;
+  -moz-transform: 0px 0px 2;
+  -o-transform: 0px 0px 2;
+  -ms-transform: 0px 0px 2;
+  transform: 0px 0px 2;
+  transform: translate(0px, 0px) scale(2);
+  -webkit-transform: translate(0px, 0px) scale(2);
+  -moz-transform: translate(0px, 0px) scale(2);
+  -o-transform: translate(0px, 0px) scale(2);
+  -ms-transform: translate(0px, 0px) scale(2); }
+  .jedi:hover .jedi-text .name-jedi:hover,
+  .jedi:hover .jedi-text .name-jedi:after {
+    display: none;
+    opacity: 0; }
+
+/* Style Jedi Masters */
+.jedi:hover .name-jedi {
+  opacity: 0; }
+
+/*# sourceMappingURL=main.css.map */
