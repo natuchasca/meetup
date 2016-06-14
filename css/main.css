@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media (max-width: 767px) and (min-width: 285px) {
   .menu .menu-nav .navbar-brand img {
     position: absolute;
@@ -23,18 +24,18 @@
   .presentacion {
     width: 100%; }
     .presentacion .title {
-      width: 200px;
+      width: 100%;
       height: auto;
       transform-origin: 50% 100%;
       transform: perspective(50px) rotateX(25deg); }
       .presentacion .title p, .presentacion .title h1 {
         width: 50%; }
 
-  .que-es .meet {
-    margin: 10% auto; }
   .que-es .meets {
     margin-bottom: 40px;
     width: 100%; }
+    .que-es .meets .meet {
+      margin: 10% auto; }
   .que-es p {
     margin: 10% 10%; }
   .que-es .suma {
@@ -193,7 +194,9 @@
     font-weight: bold; }
 
 .presentacion {
-  background-image: url("../img/star_bg.jpg"); }
+  background-image: url("../img/star_bg.jpg");
+  max-width: 100%;
+  overflow: hidden; }
   .presentacion body {
     margin: 0; }
   .presentacion .fondo {
@@ -217,6 +220,12 @@
     overflow: hidden;
     transform-origin: 50% 100%;
     transform: perspective(300px) rotateX(25deg); }
+    @media (max-width: 768px) {
+      .presentacion .tittle {
+        max-width: 100%;
+        overflow: hidden;
+        left: 75%;
+        font-size: 200%; } }
   .presentacion .titles:after {
     position: absolute;
     content: ' ';
@@ -237,7 +246,7 @@
     top: -170%; } }
   .presentacion h1 {
     font-family: "STARWARS";
-    font-size: 150px;
+    font-size: 80px;
     color: #F7BD2A;
     text-align: center;
     margin-top: 80px; }
@@ -247,6 +256,9 @@
     .presentacion p h2 {
       color: #F7BD2A;
       font-size: 100px; }
+
+.navbar-inner, .navbar .btn-navbar {
+  border: 0px; }
 
 .mainfooter {
   background-color: #3B3D3F;
@@ -363,8 +375,8 @@ p, h4, h6, li > a {
     font-size: 30px;
     display: block; }
     .que-es .suma img {
-      width: 60px;
-      height: 60px;
+      width: 73px;
+      height: 73px;
       margin-left: 25px;
       margin-right: 20px;
       margin-bottom: 10px;
@@ -631,6 +643,9 @@ p, h4, h6, li > a {
   .hashtag .btn-force {
     margin-top: -5px; }
 
+.text_right {
+  text-align: justify; }
+
 /* Style Jedi Masters */
 #maestros-jedi {
   background-color: rgba(0, 0, 0, 0.1);
@@ -783,5 +798,8 @@ p, h4, h6, li > a {
 /* Style Jedi Masters */
 .jedi:hover .name-jedi {
   opacity: 0; }
+
+.master-jedi {
+  font-size: 8px; }
 
 /*# sourceMappingURL=main.css.map */
