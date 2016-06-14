@@ -104,59 +104,60 @@ p, h4, h6, li>a {
 
 
 /* pasos */
-.pasos {
-	padding-top: 40px;
-	h1 {
-		margin-bottom: 30px;
-	}
-	.pasos-bno {
-		margin-left: 50px;
-		min-height: 100px;
-		height: 1005;
-	.number {
-		margin-right:20px;
-		margin-top:15px;
-		font-size:38px;
-		color:$yellow;
-		display: inline-block;
-	}
-	.text
-	{
-		color:white;
-		font-size:20px;
-		width:80%;
-		text-align:left;
-		display: inline-block;
-		vertical-align: top;
-		padding-top: 12px;
-		&.pt {
-			padding-top: 2px;
-		}
-		
-		.fa 
-		{
-			font-size:40px;
-			margin-left:15px;
-			margin-right:15px;
-		}
-		a 
-		{
+
+.steps {
+	.steps-box {
+		background-color:transparent;
+		min-height:110px;
+		height: 100%;
+		margin:20px 25%;
+		.numb {
+			background-color:transparent;
+			width:80px;
+			height:90px;
 			color:$yellow;
+			font-size:35px;
+			padding: 3px 10px;
+			margin:10px 10px;
+			//border:1px solid $yellow;
+			-webkit-box-shadow: 3px 3px 3px 3px #F2F2F2;
+			box-shadow: 2px 2px 2px 2px #F2F2F2;
+			.icon {
+			  position:relative;
+			  bottom:15px;
+			  font-size:32px;
+			}
 		}
-		strong 
-		{
+		.text {
+			background-color:transparent;
+			border:1px solid white;
+			min-height:90px;
+			height: 100%;
+			width:80%;
+			margin-left:100px;
+			margin-top:-100px;
+			padding-top:15px;
+			padding-left:40px;
+			padding-right:10px;
+			font-size:23px;
+			text-align:left;
 			color:$yellow;
+			a {
+				color:white;
+				font-weight:bold;
+				text-decoration:underline;
+			}
 		}
 	}
-}
 }
 
 
 
 /* yoda */
 .yoda-part {
+	@include marginsecciones;
 	padding-bottom: 50px;
-	background-color:$black;
+	background-color: $black;
 	min-height: 370px;
 	height: 100%;
 	@include followboton;
@@ -165,6 +166,7 @@ p, h4, h6, li>a {
 		margin-top: 30px;
 		margin-bottom: 30px;
     }
+
 	.yoda {
 		width: 180px;
 		height: auto;

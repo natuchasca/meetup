@@ -73,23 +73,27 @@
 
 	}
 
+
+
 	.yoda-part {
-			.pasos {
-				.pasos-bno {
-					height: auto;
-					.number {
-						display: inline-block;
-						margin-bottom: -50px;
-					}
-					.text {
-						.hash {
-							font-size: 80%;
-						}
+		.steps {
+			.steps-box {
+				width:95%;
+				position:relative;
+				right:100px;
+				height: auto;
+				background-color:transparent;
+				.text {
+						font-size:18px;
+						padding-left: 15px;
+					.hash {
+						font-size: 90%;
 					}
 				}
-
 			}
-		}
+		}	
+	}
+
 
 	/* JEdi zone */
     
