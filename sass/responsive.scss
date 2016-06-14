@@ -3,28 +3,7 @@
 		min-width: 250px;
 		max-width: 767px;
 	}
-	.yoda-part
-	{
-		
-		.blah
-    {
-    	
-    	.pasos-bno
-    	{
-    		margin-bottom:30px;
-    		.number
-    		{
-    			margin-left:-150px;
-
-    		}
-    		.text
-    		{
-    			margin-left:90px;
-    			font-size:18px;
-    		}
-    	}
-    }
-	}
+	
 	
 
 	.menu .menu-nav .navbar-brand img {
@@ -102,7 +81,21 @@
 
 	}
 
-
+	.yoda-part {
+			.steps-box
+			{
+				width:95%;
+				position:relative;
+				right:110px;
+				height:120px;
+				background-color:transparent;
+				p 
+				{
+					font-size:18px;
+				}
+			}
+			
+		}
 
 
 	/* JEdi zone */

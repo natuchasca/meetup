@@ -4,14 +4,6 @@
     min-width: 250px;
     max-width: 767px; }
 
-  .yoda-part .blah .pasos-bno {
-    margin-bottom: 30px; }
-    .yoda-part .blah .pasos-bno .number {
-      margin-left: -150px; }
-    .yoda-part .blah .pasos-bno .text {
-      margin-left: 90px;
-      font-size: 18px; }
-
   .menu .menu-nav .navbar-brand img {
     position: absolute;
     margin-left: -40px; }
@@ -62,6 +54,15 @@
     .que-es .suma .fa {
       font-size: 40px !important;
       margin: 0 !important; }
+
+  .yoda-part .steps-box {
+    width: 95%;
+    position: relative;
+    right: 110px;
+    height: 120px;
+    background-color: transparent; }
+    .yoda-part .steps-box p {
+      font-size: 18px; }
 
   /* JEdi zone */
   #maestros-jedi .jedi .jedi-text {
@@ -391,32 +392,41 @@ p, h4, h6, li > a {
     box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4); }
 
 /* pasos */
-.pasos {
-  padding-top: 50px; }
-  .pasos h1 {
-    margin-bottom: 30px; }
-  .pasos .pasos-bno {
-    margin-left: 50px; }
-    .pasos .pasos-bno .number {
-      margin-right: 20px;
-      margin-top: 15px;
-      font-size: 38px;
-      color: #F7BD2A;
-      display: inline-block; }
-    .pasos .pasos-bno .text {
+.steps .steps-box {
+  background-color: transparent;
+  height: 110px;
+  margin: 20px 25%; }
+  .steps .steps-box .numb {
+    background-color: transparent;
+    width: 80px;
+    height: 90px;
+    color: #F7BD2A;
+    font-size: 35px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    -webkit-box-shadow: 3px 3px 3px 3px #F2F2F2;
+    box-shadow: 2px 2px 2px 2px #F2F2F2; }
+    .steps .steps-box .numb .icon {
+      position: relative;
+      bottom: 15px;
+      font-size: 32px; }
+  .steps .steps-box .text {
+    background-color: transparent;
+    border: 1px solid white;
+    height: 90px;
+    width: 80%;
+    margin-left: 100px;
+    margin-top: -100px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 10px;
+    font-size: 23px;
+    text-align: left;
+    color: #F7BD2A; }
+    .steps .steps-box .text a {
       color: white;
-      font-size: 20px;
-      width: 80%;
-      text-align: left;
-      display: inline-block; }
-      .pasos .pasos-bno .text .fa {
-        font-size: 40px;
-        margin-left: 15px;
-        margin-right: 15px; }
-      .pasos .pasos-bno .text a {
-        color: #F7BD2A; }
-      .pasos .pasos-bno .text strong {
-        color: #F7BD2A; }
+      font-weight: bold;
+      text-decoration: underline; }
 
 /* yoda */
 .yoda-part {
