@@ -23,18 +23,18 @@
   .presentacion {
     width: 100%; }
     .presentacion .title {
-      width: 200px;
+      width: 100%;
       height: auto;
       transform-origin: 50% 100%;
       transform: perspective(50px) rotateX(25deg); }
       .presentacion .title p, .presentacion .title h1 {
         width: 50%; }
 
-  .que-es .meet {
-    margin: 20% auto; }
   .que-es .meets {
     margin-bottom: 40px;
     width: 100%; }
+    .que-es .meets .meet {
+      margin: 10% auto; }
   .que-es p {
     margin: 10% 10%; }
   .que-es .suma {
@@ -223,7 +223,7 @@
       .presentacion .tittle {
         max-width: 100%;
         overflow: hidden;
-        left: 54%;
+        left: 75%;
         font-size: 200%; } }
   .presentacion .titles:after {
     position: absolute;
