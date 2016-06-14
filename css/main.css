@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @media (max-width: 767px) and (min-width: 285px) {
   .menu .menu-nav .navbar-brand img {
     position: absolute;
@@ -32,7 +31,7 @@
         width: 50%; }
 
   .que-es .meet {
-    margin: 10% auto; }
+    margin: 20% auto; }
   .que-es .meets {
     margin-bottom: 40px;
     width: 100%; }
