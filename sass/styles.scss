@@ -12,8 +12,11 @@ p, h4, h6, li>a {
 /* Que es */
 .que-es{
 	@include marginsecciones;
+	height: auto;
+	padding-top: 50px;
 	h1{
-	padding-bottom: 2%;
+	padding-bottom:100px;
+	padding-top:70px;
 	text-align: center;
 	}
 	p{
@@ -100,15 +103,67 @@ p, h4, h6, li>a {
 }
 
 
+/* pasos */
+.pasos {
+	padding-top: 40px;
+	h1 {
+		margin-bottom: 30px;
+	}
+	.pasos-bno {
+		margin-left: 50px;
+		min-height: 100px;
+		height: 1005;
+	.number {
+		margin-right:20px;
+		margin-top:15px;
+		font-size:38px;
+		color:$yellow;
+		display: inline-block;
+	}
+	.text
+	{
+		color:white;
+		font-size:20px;
+		width:80%;
+		text-align:left;
+		display: inline-block;
+		vertical-align: top;
+		padding-top: 12px;
+		&.pt {
+			padding-top: 2px;
+		}
+		
+		.fa 
+		{
+			font-size:40px;
+			margin-left:15px;
+			margin-right:15px;
+		}
+		a 
+		{
+			color:$yellow;
+		}
+		strong 
+		{
+			color:$yellow;
+		}
+	}
+}
+}
+
+
+
 /* yoda */
 .yoda-part {
-	@include marginsecciones;
-	background-image: url("../img/star_bg.jpg");
-	background-size: cover;
-	background-position: center;
+	padding-bottom: 50px;
+	background-color:$black;
 	min-height: 370px;
 	height: 100%;
 	@include followboton;
+	.yoda-text {
+		text-align: center;
+		margin-top: 30px;
+    }
 	.yoda {
 		width: 180px;
 		height: auto;
@@ -124,34 +179,7 @@ p, h4, h6, li>a {
 			color:$yellow;
 		}
 
-		.pasos
-		{
-			margin: 40px auto;
-			
-			p 
-			{
-				color:white;
-				text-align:justify;
-				font-size:20px;
-
-				.fa 
-				{
-					margin-right:20px;
-					font-size:45px;
-					color:$yellow;
-				}
-				strong  
-				{
-					color:$yellow;
-					font-size:25px;
-
-				}
-				strong em 
-				{
-					color:white;
-				}
-			}
-		}
+		
 	
 }
 
@@ -167,7 +195,7 @@ p, h4, h6, li>a {
 	    font-size: 16px;
 	  }
 	.horario {
-		height: 150px;
+		height: 170px;
 		margin-bottom: 20px;
 		min-width: 200px;
 		background-color: $grey;
@@ -298,6 +326,9 @@ p, h4, h6, li>a {
 		margin-top: -5px;
 	}
 }
+
+
+
 
 
 

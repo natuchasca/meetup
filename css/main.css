@@ -1,4 +1,147 @@
 @charset "UTF-8";
+@media (max-width: 767px) and (min-width: 285px) {
+  .menu .menu-nav .navbar-brand img {
+    position: absolute;
+    margin-left: -40px; }
+
+  .navbar-nav > li {
+    float: none;
+    padding-bottom: 10px; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  .navbar-toggle {
+    margin-top: 20px;
+    margin-right: -3px; }
+
+  .navbar-default .navbar-collapse {
+    border-color: none;
+    border-top: none;
+    border-style: none; }
+
+  .presentacion {
+    width: 100%; }
+    .presentacion .title {
+      width: 200px;
+      height: auto;
+      transform-origin: 50% 100%;
+      transform: perspective(50px) rotateX(25deg); }
+      .presentacion .title p, .presentacion .title h1 {
+        width: 50%; }
+
+  .que-es .meet {
+    margin: 10% auto; }
+  .que-es .meets {
+    margin-bottom: 40px;
+    width: 100%; }
+  .que-es p {
+    margin: 10% 10%; }
+  .que-es .suma {
+    width: 90%; }
+    .que-es .suma .big-icon {
+      width: 30px;
+      height: auto;
+      margin: 0; }
+    .que-es .suma span {
+      font-size: 20px !important;
+      margin: 0 !important; }
+    .que-es .suma .fa {
+      font-size: 40px !important;
+      margin: 0 !important; }
+
+  .yoda-part .pasos .pasos-bno {
+    height: auto; }
+    .yoda-part .pasos .pasos-bno .number {
+      display: inline-block;
+      margin-bottom: -50px; }
+    .yoda-part .pasos .pasos-bno .text .hash {
+      font-size: 80%; }
+
+  /* JEdi zone */
+  #maestros-jedi .jedi .jedi-text {
+    bottom: 10%; }
+
+  #chrono .horario {
+    height: auto;
+    overflow: auto; }
+  #chrono .actividad p {
+    margin-left: 0px;
+    display: inline-block; }
+
+  .hashtag .hashtag-text h1 {
+    font-size: 120%; }
+  .hashtag .hashtag-text button {
+    width: auto;
+    height: auto;
+    font-size: 100%;
+    overflow: auto; }
+  .hashtag .hashtag-text button:hover {
+    width: auto;
+    height: auto;
+    font-size: 100%;
+    overflow: auto; }
+
+  #footerWrapper .footerwidget {
+    padding-right: 20px; }
+  #footerWrapper iframe {
+    width: 100%;
+    height: auto; } }
+/* Responsive burger, breakpoint edit */
+@media (max-width: 1130px) and (min-width: 768px) {
+  .navbar-header {
+    float: none; }
+
+  .navbar-toggle {
+    display: block; }
+
+  .navbar-collapse {
+    border-top: none;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+  .navbar-collapse.collapse {
+    display: none !important; }
+
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px; }
+
+  .navbar-nav > li {
+    float: none;
+    padding-bottom: 10px; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  .navbar-text {
+    float: none;
+    margin: 15px 0; }
+
+  /* since 3.1.0 */
+  .navbar-collapse.collapse.in {
+    display: block !important; }
+
+  .collapsing {
+    overflow: hidden !important; }
+
+  .navbar-toggle {
+    margin-top: 20px;
+    margin-right: 30px; }
+
+  /* JEdi zone */
+  #maestros-jedi .jedi .jedi-img {
+    margin-bottom: 10%; }
+  #maestros-jedi .jedi .jedi-text {
+    bottom: 12%; }
+
+  #chrono .horario {
+    height: auto;
+    overflow: auto; }
+  #chrono .actividad p {
+    margin-left: 0px;
+    float: left; } }
 /* Propiedes imagen background fixed */
 /* Margenes de secciones */
 /* Línea */
@@ -171,141 +314,9 @@
     height: 100px;
     width: 100px;
     margin-bottom: -10px; }
+  .citripio h6 {
+    font-weight: bold; }
 
-@media (max-width: 767px) and (min-width: 200px) {
-  .container {
-    min-width: 250px;
-    max-width: 767px; }
-
-  .menu .menu-nav .navbar-brand img {
-    height: 250%;
-    width: auto;
-    margin-left: -20px; }
-
-  .navbar-nav > li {
-    float: none;
-    padding-bottom: 10px; }
-
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px; }
-
-  .navbar-default .navbar-collapse {
-    border-color: none;
-    border-top: none;
-    border-style: none; }
-
-  .presentacion {
-    width: 100%; }
-    .presentacion .title {
-      width: 200px;
-      height: auto;
-      transform-origin: 50% 100%;
-      transform: perspective(50px) rotateX(25deg); }
-      .presentacion .title p, .presentacion .title h1 {
-        width: 50%; }
-
-  .que-es .meet {
-    margin: 10% auto; }
-  .que-es .meets {
-    margin-bottom: 40px;
-    width: 100%; }
-  .que-es p {
-    margin: 10% 10%; }
-  .que-es .suma {
-    width: 90%; }
-    .que-es .suma .big-icon {
-      width: 30px;
-      height: auto;
-      margin: 0; }
-    .que-es .suma span {
-      font-size: 20px !important;
-      margin: 0 !important; }
-    .que-es .suma .fa {
-      font-size: 40px !important;
-      margin: 0 !important; }
-  .que-es .yoda-part .pasos {
-    margin: 10% 10%; }
-
-  /* JEdi zone */
-  #maestros-jedi .jedi .jedi-text {
-    bottom: 10%; }
-
-  #chrono .horario {
-    height: auto;
-    overflow: auto; }
-  #chrono .actividad p {
-    margin-left: 0px;
-    display: inline-block; }
-
-  .hashtag .hashtag-text h1 {
-    font-size: 120%; }
-  .hashtag .hashtag-text button {
-    width: auto;
-    height: auto;
-    font-size: 100%;
-    overflow: auto; }
-  .hashtag .hashtag-text button:hover {
-    width: auto;
-    height: auto;
-    font-size: 100%;
-    overflow: auto; }
-
-  #footerWrapper .footerwidget {
-    padding-right: 20px; }
-  #footerWrapper iframe {
-    width: 100%;
-    height: auto; } }
-/* Responsive burger, breakpoint edit */
-@media (max-width: 1130px) and (min-width: 768px) {
-  .navbar-header {
-    float: none; }
-
-  .navbar-toggle {
-    display: block; }
-
-  .navbar-collapse {
-    border-top: none;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
-
-  .navbar-collapse.collapse {
-    display: none !important; }
-
-  .navbar-nav {
-    float: none !important;
-    margin: 7.5px -15px; }
-
-  .navbar-nav > li {
-    float: none;
-    padding-bottom: 10px; }
-
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px; }
-
-  .navbar-text {
-    float: none;
-    margin: 15px 0; }
-
-  /* since 3.1.0 */
-  .navbar-collapse.collapse.in {
-    display: block !important; }
-
-  .collapsing {
-    overflow: hidden !important; }
-
-  /* JEdi zone */
-  #maestros-jedi .jedi .jedi-img {
-    margin-bottom: 10%; }
-  #maestros-jedi .jedi .jedi-text {
-    bottom: 12%; }
-
-  #chrono .horario {
-    height: auto;
-    overflow: auto; }
-  #chrono .actividad p {
-    margin-left: 0px;
-    float: left; } }
 h1, h2 {
   font-family: "STARWARS"; }
 
@@ -314,9 +325,12 @@ p, h4, h6, li > a {
 
 /* Que es */
 .que-es {
-  padding: 30px 0px; }
+  padding: 40px 0px;
+  height: auto;
+  padding-top: 50px; }
   .que-es h1 {
-    padding-bottom: 2%;
+    padding-bottom: 100px;
+    padding-top: 70px;
     text-align: center; }
   .que-es p {
     font-size: 18px;
@@ -376,12 +390,44 @@ p, h4, h6, li > a {
     -moz-box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4); }
 
+/* pasos */
+.pasos {
+  padding-top: 40px; }
+  .pasos h1 {
+    margin-bottom: 30px; }
+  .pasos .pasos-bno {
+    margin-left: 50px;
+    min-height: 100px;
+    height: 1005; }
+    .pasos .pasos-bno .number {
+      margin-right: 20px;
+      margin-top: 15px;
+      font-size: 38px;
+      color: #F7BD2A;
+      display: inline-block; }
+    .pasos .pasos-bno .text {
+      color: white;
+      font-size: 20px;
+      width: 80%;
+      text-align: left;
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 12px; }
+      .pasos .pasos-bno .text.pt {
+        padding-top: 2px; }
+      .pasos .pasos-bno .text .fa {
+        font-size: 40px;
+        margin-left: 15px;
+        margin-right: 15px; }
+      .pasos .pasos-bno .text a {
+        color: #F7BD2A; }
+      .pasos .pasos-bno .text strong {
+        color: #F7BD2A; }
+
 /* yoda */
 .yoda-part {
-  padding: 30px 0px;
-  background-image: url("../img/star_bg.jpg");
-  background-size: cover;
-  background-position: center;
+  padding-bottom: 50px;
+  background-color: #3B3D3F;
   min-height: 370px;
   height: 100%; }
   .yoda-part .btn-force {
@@ -409,6 +455,9 @@ p, h4, h6, li > a {
     box-shadow: 0px 1px 17px 1px #fcf9fc; }
     .yoda-part .btn-force:hover a {
       color: #FFF; }
+  .yoda-part .yoda-text {
+    text-align: center;
+    margin-top: 30px; }
   .yoda-part .yoda {
     width: 180px;
     height: auto;
@@ -419,25 +468,10 @@ p, h4, h6, li > a {
     margin-bottom: 40px; }
   .yoda-part h1 {
     color: #F7BD2A; }
-  .yoda-part .pasos {
-    margin: 40px auto; }
-    .yoda-part .pasos p {
-      color: white;
-      text-align: justify;
-      font-size: 20px; }
-      .yoda-part .pasos p .fa {
-        margin-right: 20px;
-        font-size: 45px;
-        color: #F7BD2A; }
-      .yoda-part .pasos p strong {
-        color: #F7BD2A;
-        font-size: 25px; }
-      .yoda-part .pasos p strong em {
-        color: white; }
 
 /* Programación */
 .programacion {
-  padding: 30px 0px;
+  padding: 40px 0px;
   height: auto; }
   .programacion hr {
     width: 50px;
@@ -448,7 +482,7 @@ p, h4, h6, li > a {
   .programacion p {
     font-size: 16px; }
   .programacion .horario {
-    height: 150px;
+    height: 170px;
     margin-bottom: 20px;
     min-width: 200px;
     background-color: #F2F6F7;
@@ -477,7 +511,7 @@ p, h4, h6, li > a {
 
 /* Colaboradores */
 .colaboradores {
-  padding: 30px 0px;
+  padding: 40px 0px;
   min-height: 350px;
   height: 100%; }
   .colaboradores hr {
@@ -520,7 +554,7 @@ p, h4, h6, li > a {
 
 /* Hashtag */
 .hashtag {
-  padding: 30px 0px;
+  padding: 40px 0px;
   background-image: url("../img/star_bg.jpg");
   padding: 50px 0px;
   max-height: 250px;
@@ -590,7 +624,7 @@ p, h4, h6, li > a {
 /* Style Jedi Masters */
 #maestros-jedi {
   background-color: rgba(0, 0, 0, 0.1);
-  padding: 30px 0px; }
+  padding: 40px 0px; }
   #maestros-jedi hr {
     width: 50px;
     background-color: #F7BD2A;
@@ -715,7 +749,8 @@ p, h4, h6, li > a {
   vertical-align: top; }
   .jedi:hover .jedi-img .name-jedi:hover,
   .jedi:hover .jedi-img .name-jedi:after {
-    display: none; }
+    display: none;
+    opacity: 0; }
 
 .jedi:hover .jedi-text {
   z-index: 6;
@@ -732,7 +767,8 @@ p, h4, h6, li > a {
   -ms-transform: translate(0px, 0px) scale(2); }
   .jedi:hover .jedi-text .name-jedi:hover,
   .jedi:hover .jedi-text .name-jedi:after {
-    display: none; }
+    display: none;
+    opacity: 0; }
 
 /* Style Jedi Masters */
 .jedi:hover .name-jedi {
