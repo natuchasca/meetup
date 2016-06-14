@@ -19,7 +19,6 @@
       margin-bottom: 5px;
     }
   }
-  
 }
 .name-jedi{
   width: 100%;
@@ -35,6 +34,9 @@
     font-family: $tipo_norm;
     font-weight: bold;
     margin-bottom: -5px;
+  }
+  &:hover{
+    color: #E5E5E5;
   }
 }
 .name-jedi:hover,
@@ -129,6 +131,7 @@
   .name-jedi:hover,
   .name-jedi:after {
     display: none;
+    opacity: 0;
   }
 }
 .jedi:hover .jedi-text {
@@ -147,6 +150,14 @@
   .name-jedi:hover,
   .name-jedi:after {
     display: none;
+    opacity: 0;
   }
 }
 /* Style Jedi Masters */ 
+.jedi{
+  &:hover{
+    .name-jedi{
+      opacity: 0;
+    }
+  }
+}

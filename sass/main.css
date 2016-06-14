@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @media (max-width: 767px) and (min-width: 285px) {
   .menu .menu-nav .navbar-brand img {
     position: absolute;
@@ -51,17 +50,13 @@
       font-size: 40px !important;
       margin: 0 !important; }
 
-  .yoda-part .steps .steps-box {
-    width: 95%;
-    position: relative;
-    right: 100px;
-    height: auto;
-    background-color: transparent; }
-    .yoda-part .steps .steps-box .text {
-      font-size: 18px;
-      padding-left: 15px; }
-      .yoda-part .steps .steps-box .text .hash {
-        font-size: 90%; }
+  .yoda-part .pasos .pasos-bno {
+    height: auto; }
+    .yoda-part .pasos .pasos-bno .number {
+      display: inline-block;
+      margin-bottom: -50px; }
+    .yoda-part .pasos .pasos-bno .text .hash {
+      font-size: 80%; }
 
   /* JEdi zone */
   #maestros-jedi .jedi .jedi-text {
@@ -194,9 +189,7 @@
     font-weight: bold; }
 
 .presentacion {
-  background-image: url("../img/star_bg.jpg");
-  max-width: 100%;
-  overflow: hidden; }
+  background-image: url("../img/star_bg.jpg"); }
   .presentacion body {
     margin: 0; }
   .presentacion .fondo {
@@ -220,12 +213,6 @@
     overflow: hidden;
     transform-origin: 50% 100%;
     transform: perspective(300px) rotateX(25deg); }
-    @media (max-width: 768px) {
-      .presentacion .tittle {
-        max-width: 100%;
-        overflow: hidden;
-        left: 54%;
-        font-size: 200%; } }
   .presentacion .titles:after {
     position: absolute;
     content: ' ';
@@ -246,7 +233,7 @@
     top: -170%; } }
   .presentacion h1 {
     font-family: "STARWARS";
-    font-size: 80px;
+    font-size: 150px;
     color: #F7BD2A;
     text-align: center;
     margin-top: 80px; }
@@ -256,9 +243,6 @@
     .presentacion p h2 {
       color: #F7BD2A;
       font-size: 100px; }
-
-.navbar-inner, .navbar .btn-navbar {
-  border: 0px; }
 
 .mainfooter {
   background-color: #3B3D3F;
@@ -406,47 +390,41 @@ p, h4, h6, li > a {
     box-shadow: 0px 1px 17px 1px rgba(0, 0, 0, 0.4); }
 
 /* pasos */
-.steps .steps-box {
-  background-color: transparent;
-  min-height: 110px;
-  height: 100%;
-  margin: 20px 25%; }
-  .steps .steps-box .numb {
-    background-color: transparent;
-    width: 80px;
-    height: 90px;
-    color: #F7BD2A;
-    font-size: 35px;
-    padding: 3px 10px;
-    margin: 10px 10px;
-    -webkit-box-shadow: 3px 3px 3px 3px #F2F2F2;
-    box-shadow: 2px 2px 2px 2px #F2F2F2; }
-    .steps .steps-box .numb .icon {
-      position: relative;
-      bottom: 15px;
-      font-size: 32px; }
-  .steps .steps-box .text {
-    background-color: transparent;
-    border: 1px solid white;
-    min-height: 90px;
-    height: 100%;
-    width: 80%;
-    margin-left: 100px;
-    margin-top: -100px;
-    padding-top: 15px;
-    padding-left: 40px;
-    padding-right: 10px;
-    font-size: 23px;
-    text-align: left;
-    color: #F7BD2A; }
-    .steps .steps-box .text a {
+.pasos {
+  padding-top: 40px; }
+  .pasos h1 {
+    margin-bottom: 30px; }
+  .pasos .pasos-bno {
+    margin-left: 50px;
+    min-height: 100px;
+    height: 1005; }
+    .pasos .pasos-bno .number {
+      margin-right: 20px;
+      margin-top: 15px;
+      font-size: 38px;
+      color: #F7BD2A;
+      display: inline-block; }
+    .pasos .pasos-bno .text {
       color: white;
-      font-weight: bold;
-      text-decoration: underline; }
+      font-size: 20px;
+      width: 80%;
+      text-align: left;
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 12px; }
+      .pasos .pasos-bno .text.pt {
+        padding-top: 2px; }
+      .pasos .pasos-bno .text .fa {
+        font-size: 40px;
+        margin-left: 15px;
+        margin-right: 15px; }
+      .pasos .pasos-bno .text a {
+        color: #F7BD2A; }
+      .pasos .pasos-bno .text strong {
+        color: #F7BD2A; }
 
 /* yoda */
 .yoda-part {
-  padding: 40px 0px;
   padding-bottom: 50px;
   background-color: #3B3D3F;
   min-height: 370px;
