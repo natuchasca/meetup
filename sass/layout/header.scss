@@ -61,6 +61,8 @@
 
 .presentacion {
 	background-image: url("../img/star_bg.jpg");
+	max-width: 100%;
+  overflow: hidden;
 	@include imagen-bg;
 	.tittle {
 		position: absolute;
@@ -75,6 +77,12 @@
 		overflow: hidden;
 		transform-origin: 50% 100%;
 		transform: perspective(300px) rotateX(25deg);
+		@media (max-width: 768px) {
+			max-width: 100%;
+			overflow: hidden;
+			left: 75%;
+			font-size: 200%;
+		}
 	}
 		.titles:after {
 		position: absolute;
@@ -99,7 +107,7 @@
 
 	h1 {
 		font-family:"STARWARS";
-		font-size:150px;
+		font-size: 80px;
 		color:$yellow;
 		text-align:center;
 		margin-top: 80px;
@@ -114,6 +122,8 @@
 	}
 }
 
-
+.navbar-inner, .navbar .btn-navbar {
+	border: 0px;
+}
 
 
