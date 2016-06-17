@@ -111,6 +111,12 @@
     		overflow: auto;
     	}
     	.actividad {
+    		.short {
+    			width: 220px;
+    		}
+    		.short2 {
+    			width: 250px;
+    		}
     		p {
     			margin-left: 0px;
     			display: inline-block;
@@ -214,10 +220,16 @@
 
     #chrono {
     	.horario {
-    		height: auto;
+    		height: 250px;
     		overflow: auto;
     	}
     	.actividad {
+    		.short {
+    			width: 220px;
+    		}
+    		.short2 {
+    			width: 250px;
+    		}
     		p {
     			margin-left: 0px;
     			float: left;
