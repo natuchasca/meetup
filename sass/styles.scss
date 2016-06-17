@@ -157,9 +157,11 @@ p, h4, h6, li>a {
 .yoda-part {
 	@include marginsecciones;
 	padding-bottom: 50px;
-	background-color: $black;
-	min-height: 370px;
+	background-image: url("../img/star_bg.jpg");
 	height: 100%;
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	min-height: 370px;
 	@include followboton;
 	.yoda-text {
 		text-align: center;
@@ -176,6 +178,7 @@ p, h4, h6, li>a {
 		font-family: $tipo_norm;
 		color: $yellow;
 		margin-bottom: 40px;
+		font-weight: bold;
 	}
 		h1
 		{
@@ -198,7 +201,7 @@ p, h4, h6, li>a {
 	    font-size: 16px;
 	  }
 	.horario {
-		height: 170px;
+		height: 180px;
 		margin-bottom: 20px;
 		min-width: 200px;
 		background-color: $grey;

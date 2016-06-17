@@ -70,6 +70,10 @@
   #chrono .horario {
     height: auto;
     overflow: auto; }
+  #chrono .actividad .short {
+    width: 220px; }
+  #chrono .actividad .short2 {
+    width: 250px; }
   #chrono .actividad p {
     margin-left: 0px;
     display: inline-block; }
@@ -141,15 +145,19 @@
     bottom: 12%; }
 
   #chrono .horario {
-    height: auto;
+    height: 250px;
     overflow: auto; }
+  #chrono .actividad .short {
+    width: 220px; }
+  #chrono .actividad .short2 {
+    width: 250px; }
   #chrono .actividad p {
     margin-left: 0px;
     float: left; } }
 /* Propiedes imagen background fixed */
 /* Margenes de secciones */
-/* Línea */
-/* Botón */
+/* L├¡nea */
+/* Bot├│n */
 /*STILOS HEADER lissette*/
 .menu .navbar-toggle, .menu .nav {
   background-color: #3B3D3F; }
@@ -448,9 +456,11 @@ p, h4, h6, li > a {
 .yoda-part {
   padding: 40px 0px;
   padding-bottom: 50px;
-  background-color: #3B3D3F;
-  min-height: 370px;
-  height: 100%; }
+  background-image: url("../img/star_bg.jpg");
+  height: 100%;
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  min-height: 370px; }
   .yoda-part .btn-force {
     width: 220px;
     height: 50px;
@@ -487,11 +497,12 @@ p, h4, h6, li > a {
   .yoda-part cite {
     font-family: helvetica;
     color: #F7BD2A;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    font-weight: bold; }
   .yoda-part h1 {
     color: #F7BD2A; }
 
-/* Programación */
+/* Programaci├│n */
 .programacion {
   padding: 40px 0px;
   height: auto; }
@@ -504,7 +515,7 @@ p, h4, h6, li > a {
   .programacion p {
     font-size: 16px; }
   .programacion .horario {
-    height: 170px;
+    height: 180px;
     margin-bottom: 20px;
     min-width: 200px;
     background-color: #F2F6F7;
